@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/js/Header';
+import Name from './components/js/Name';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
               <Header></Header>
           </header>
 
-       
+          <Name></Name>
 
           {/*      <img src={logo} className="App-logo" alt="logo" />
           <p>

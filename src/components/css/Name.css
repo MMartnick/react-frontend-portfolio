@@ -12,7 +12,7 @@
     font-family: 'Raleway', sans-serif;
     border-left: #3F3C3C solid 3px;
     padding-left: 1vw;
-    padding-bottom: 1vw;
+
 }
 
 #occupation {
@@ -23,4 +23,9 @@
     padding-left: 1.2vw;
     padding-bottom: 1vw;
     font-family: 'Muli', sans-serif;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
 }
