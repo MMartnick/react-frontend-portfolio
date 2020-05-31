@@ -1,0 +1,26 @@
+#maintitle {
+    margin: auto;
+    padding-top: 22vh;
+    padding-bottom: 20vh;
+    width: 65vw;
+    z-index: 2;
+}
+
+#studio {
+    text-align: left;
+    font-size: 3.9em;
+    font-family: 'Raleway', sans-serif;
+    border-left: #3F3C3C solid 3px;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+}
+
+#occupation {
+    text-align: left;
+    font-size: 2.2em;
+    border-left: #3F3C3C solid 3px;
+    border-bottom: #3F3C3C solid 3px;
+    padding-left: 1.2vw;
+    padding-bottom: 1vw;
+    font-family: 'Muli', sans-serif;
+}

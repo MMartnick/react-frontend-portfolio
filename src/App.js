@@ -10,7 +10,9 @@ function App() {
               <Header></Header>
           </header>
 
-          <img src={logo} className="App-logo" alt="logo" />
+       
+
+          {/*      <img src={logo} className="App-logo" alt="logo" />
           <p>
               Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,8 +22,8 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
           >
-              Learn React or don't
-        </a>
+            
+        </a>*/}
 
 
     </div>
