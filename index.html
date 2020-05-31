@@ -1,0 +1,56 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link rel="stylesheet" href="https://use.fontawesome.com/r  eleases/v5.0.13/css/all.css" 
+      <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+      <meta name="theme-color" content="#000000" /> 
+      <meta name="description" 
+            content="Web site created using create-react-app" /> 
+      <link rel="apple-touch-icon" href="/portfolio/logo192.png" /> 
+      <!-- 
+        manifest.json provides metadata used when your web app is installed on a  
+        user's mobile device or desktop. See https://developers.google.com/web/f  undamentals/web-app-manifest/ 
+      --> 
+      <link rel="manifest" href="/portfolio/manifest.json" /> 
+      <!-- 
+        Notice the use of /portfolio in the tags above. 
+        It will be replaced with the URL of the `public` folder during the build  . 
+        Only files inside the `public` folder can be referenced from the HTML. 
+        Unlike "/favicon.ico" or "favicon.ico", "/portfolio/favicon.ico" will 
+        work correctly both with client-side routing and a non-root public URL.         Learn how to configure a non-root public URL by running `npm run build`.  
+      --> 
+      <title>React App</title> 
+  <link href="/portfolio/static/css/main.4d7f442e.chunk.css" rel="stylesheet"></  head>
+    <body>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root"></div>
+      <!--
+        This HTML file is a template.
+        If you open it directly in the browser, you will see an empty page.
+        You can add webfonts, meta tags, or analytics to this file.
+        The build step will place the bundled scripts into the <body> tag.
+        To begin the development, run `npm start` or `yarn start`.
+        To create a production bundle, use `npm run build` or `yarn build`.
+      -->
+    <script>!function(e){function r(r){for(var n,l,f=r[0],i=r[1],p=r[2],c=0,s=[]  ;c<f.length;c++)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push  (o[l][0]),o[l]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i  [n]);for(a&&a(r);s.length;)s.shift()();return u.push.apply(u,p||[]),t()}functi  on t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){v  ar i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={  },o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,  exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l  .c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,ge  t:t})},l.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object  .defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e  ,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(  4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);i  f(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"stri  ng"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));re  turn t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:fun  ction(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.proto  type.hasOwnProperty.call(e,r)},l.p="/portfolio/";var f=this.webpackJsonpportfo  lio=this.webpackJsonpportfolio||[],i=f.push.bind(f);f.push=r,f=f.slice();for(v  ar p=0;p<f.length;p++)r(f[p]);var a=i;t()}([]);
+  //# sourceMappingURL=runtime-main.fb1b3dac.js.map</script><script src="/portfo  lio/static/js/2.fd605abd.chunk.js"></script><script src="/portfolio/static/js/  main.9499c90b.chunk.js"></script></body>
+  </html>
+  
+  - htmlparser.js:244 new HTMLParser
+    [portfolio]/[html-minifier-terser]/src/htmlparser.js:244:13
+  
+  - htmlminifier.js:993 minify
+    [portfolio]/[html-minifier-terser]/src/htmlminifier.js:993:3
+  
+  - htmlminifier.js:1354 Object.exports.minify
+    [portfolio]/[html-minifier-terser]/src/htmlminifier.js:1354:16
+  
+  - index.js:445 HtmlWebpackPlugin.postProcessHtml
+    [portfolio]/[html-webpack-plugin]/index.js:445:41
+  
+  - index.js:274 
+    [portfolio]/[html-webpack-plugin]/index.js:274:25
+  
+  - task_queues.js:97 processTicksAndRejections
+    internal/process/task_queues.js:97:5
+  
+</pre>
