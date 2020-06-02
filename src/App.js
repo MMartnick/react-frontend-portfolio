@@ -1,34 +1,50 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
+
+import Main from './components/js/Main.js';
+import Dev from './components/js/Dev.js';
+import Design from './components/js/Design.js';
+import Art from './components/js/Art.js';
+
 import './App.css';
-import Header from './components/js/Header';
-import Name from './components/js/Name';
 
 function App() {
-  return (
-    <div className="App">
-          <header className="App-header">
-              <Header></Header>
-          </header>
+    return (
+        <BrowserRouter>
 
-          <Name></Name>
+            <header className="App-header">
+                <nav>
+                    <Link to="/" class="navlink">Main</Link>
+                    <Link to="/Dev" class="navlink">Web & Software Development</Link>
+                    <Link to="/Design" class="navlink">Graphic Design</Link>
+                    <Link to="/Art" class="navlink">Fine Art</Link>
 
-          {/*      <img src={logo} className="App-logo" alt="logo" />
-          <p>
-              Edit <code>src/App.js</code> and save to reload.
-        </p>
-          <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            
-        </a>*/}
+                    <a href="https://www.instagram.com/doom_monsta/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/mmartnick/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/matthew-martnick/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </nav>
+            </header>
+
+            <body>
+                <Route exact path="/" component={Main} />
+                <Route path="/Dev" component={Dev} />
+                <Route path="/Design" component={Design} />
+                <Route path="/Art" component={Art} />
+            </body>
 
 
-    </div>
-  );
+            <footer className="App-footer">
+                <p align="center">&#169; 2020</p>
+            </footer >
+        </BrowserRouter>
+    );
 }
 
 export default App;

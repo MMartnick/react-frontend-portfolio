@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
@@ -13,6 +13,7 @@
   }
 }
 
+/* header section ====================================================*/
 .App-header {
     padding-bottom: 2vh;
     font-family: 'Raleway', sans-serif;
@@ -23,11 +24,56 @@
     background-color: #060e0fce;
 }
 
-
-
-.App-link {
-  color: #61dafb;
+.App-footer {
+    padding-top: 3vh;
+    font-family: 'Raleway', sans-serif;
+    width: 100vw;
+    position:fixed;
+    bottom:0;
+    height: 6vh;
+    color: #ffffff;
+    background-color: #060e0fce;
 }
+
+nav {
+    margin-top: 2vh;
+    display: inline;
+    float: right;
+    position: static;
+}
+
+.navlink {
+    padding-right: 4vw;
+}
+
+    .navlink:link {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .navlink:visited {
+        color: #ffffff;
+    }
+
+    .navlink:hover {
+        text-decoration: underline;
+        text-decoration-color: #ffffff;
+    }
+
+    .navlink:active {
+        text-decoration: underline;
+        text-decoration-color: #ffffff;
+    }
+
+.fab {
+    font-size: 2.2em;
+    color: #ffffff;
+    padding-right: 1.3vw;
+    text-decoration: none;
+}
+
+/* End header section ====================================================*/
+
 
 @keyframes App-logo-spin {
   from {

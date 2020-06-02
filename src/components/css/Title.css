@@ -2,34 +2,27 @@
     margin: auto;
     padding-top: 22vh;
     padding-bottom: 20vh;
-    width: 65vw;
+    width: 55vw;
     z-index: 2;
 }
 
-#studio {
+#topic {
     text-align: left;
     font-size: 3.9em;
     font-family: 'Raleway', sans-serif;
     border-left: #3F3C3C solid 3px;
-    padding-left: 1vw;
-
-}
-
-#occupation {
-    text-align: left;
-    font-size: 2.2em;
-    border-left: #3F3C3C solid 3px;
     border-bottom: #3F3C3C solid 3px;
-    padding-left: 1.2vw;
+    padding-left: 1vw;
     padding-bottom: 1vw;
-    font-family: 'Muli', sans-serif;
 }
+
 
 p {
     padding: 0px;
     margin: 0px;
 }
-.container {
+
+.top {
     background-image: url(/images/banner-temp.png);
     background-repeat: no-repeat;
     background-size: contain;
