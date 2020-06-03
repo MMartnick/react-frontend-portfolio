@@ -23,18 +23,18 @@
     color: #ffffff;
     background-color: #060e0fce;
 }
-
+/*
 .App-footer {
     padding-top: 3vh;
     font-family: 'Raleway', sans-serif;
     width: 100vw;
-    position:fixed;
+    position: inherit;
     bottom:0;
     height: 6vh;
     color: #ffffff;
     background-color: #060e0fce;
 }
-
+    */
 nav {
     margin-top: 2vh;
     display: inline;

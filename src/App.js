@@ -40,9 +40,7 @@ function App() {
             </body>
 
 
-            <footer className="App-footer">
-                <p align="center">&#169; 2020</p>
-            </footer >
+
         </BrowserRouter>
     );
 }
