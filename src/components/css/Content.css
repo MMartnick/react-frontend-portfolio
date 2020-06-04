@@ -1,4 +1,4 @@
-#highlight {
+.highlight {
     margin: auto;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -7,7 +7,7 @@
     height: 80vh;
 }
 
-#subtitle {
+.subtitle {
     width: 70vw;
     text-align: left;
     font-size: 2.3em;
@@ -19,7 +19,7 @@
     padding-top: 1vh;
 }
 
-#desc {
+.desc {
     width: 70vw;
     text-align: left;
     font-size: 1.2em;
@@ -39,7 +39,7 @@ p {
 }
 
 .logos {
-    width: 99vw;
+    width: 98vw;
     margin: 0 auto;
     text-align: center;
 }
@@ -53,7 +53,7 @@ p {
 }
 
 .albums {
-    width: 99vw;
+    width: 96vw;
     margin: 0 auto;
     text-align: center;
 }
@@ -70,7 +70,7 @@ p {
 }
 
 .gameart {
-    width: 99vw;
+    width: 96vw;
     margin: 0 auto;
     text-align: center;
 }
@@ -79,7 +79,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    width: 45vw;
+    width: 42vw;
     margin: 1vw;
     margin-top: 2vh;
 }

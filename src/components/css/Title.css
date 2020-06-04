@@ -28,3 +28,35 @@ p {
     background-size: contain;
     height: 60vh;
 }
+
+nav {
+    margin-top: 2vh;
+    display: inline;
+    float: right;
+    position: static;
+}
+
+.sublink {
+    float:right;
+    padding-right: 4vw;
+    font-style:italic;
+}
+
+    .sublink:link {
+        color: #3F3C3C;
+        text-decoration: none;
+    }
+
+    .sublink:visited {
+        color: #3F3C3C;
+    }
+
+    .sublink:hover {
+        text-decoration: underline;
+        text-decoration-color: #3F3C3C;
+    }
+
+    .sublink:active {
+        text-decoration: underline;
+        text-decoration-color: #3F3C3C;
+    }

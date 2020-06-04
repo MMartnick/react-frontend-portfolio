@@ -5,10 +5,10 @@ import '../../css/Content.css';
 
 function Music(props) {
     return (
-        <div id="highlight">
+        <div className="highlight">
             <section >
-                <p id="subtitle">Album Covers</p>
-                <p id="desc">Description text goes here.</p>
+                <p className="subtitle">Album Covers</p>
+                <p className="desc">Description text goes here.</p>
             </section>
 
             <div className="albums">

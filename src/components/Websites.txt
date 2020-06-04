@@ -1,0 +1,31 @@
+web projects:
+
+FridgeEd
+https://immense-castle-94064.herokuapp.com/login.html
+
+Giftastic
+https://mmartnick.github.io/GifTastic/
+
+Chimney Elves
+http://chimneyelves.com/
+
+Game:
+
+FF web
+https://project-one-165ac.firebaseapp.com/
+
+
+
+Icon links:
+
+Angular
+<i class="fab fa-angular"></i>
+
+JS
+<i class="fab fa-js-square"></i>
+
+Java
+<i class="fab fa-java"></i>
+
+React
+<i class="fab fa-react"></i>

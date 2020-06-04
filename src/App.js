@@ -6,6 +6,8 @@ import Dev from './components/js/Dev.js';
 import Design from './components/js/Design.js';
 import Art from './components/js/Art.js';
 
+import GameDev from './components/js/Dev/GameDev.js';
+
 import './App.css';
 
 function App() {
@@ -37,6 +39,7 @@ function App() {
                 <Route path="/Dev" component={Dev} />
                 <Route path="/Design" component={Design} />
                 <Route path="/Art" component={Art} />
+                <Route path="/GameDev" component={GameDev} />
             </body>
 
 
