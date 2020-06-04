@@ -1,5 +1,5 @@
 .highlight {
-    margin: auto;
+    margin: 0 auto;
     padding-top: 2vh;
     padding-bottom: 2vh;
     width: 99%;
@@ -20,7 +20,7 @@
 }
 
 .desc {
-    width: 70vw;
+    width: 65vw;
     text-align: left;
     font-size: 1.2em;
     font-family: 'Raleway', sans-serif;
