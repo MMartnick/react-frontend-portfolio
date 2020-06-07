@@ -19,15 +19,10 @@ function Dev(props) {
                     <article className="project">
                         <p className="subt">Web Development</p>
                         <p className="de">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et porttitor orci, ut fermentum tellus.
-                            Aliquam placerat, dolor in lobortis semper, diam sapien bibendum lectus, eget dictum leo odio id enim.
-                            Cras commodo facilisis lorem, quis laoreet mauris sodales eget.
-                            Duis pellentesque magna id nisl pretium, ut euismod ante viverra.
-                            Praesent facilisis nisi vel scelerisque elementum. Nullam eu varius nulla, interdum sagittis metus.
-                            Cras et bibendum felis, eu aliquet enim. Donec dui velit, volutpat sed mattis non, maximus a justo.
-                            Nunc vitae ante convallis, sollicitudin eros eget, volutpat leo.
-                            Vivamus malesuada auctor auctor. Aenean scelerisque lacinia mi.
-                            Phasellus non dui sit amet urna ultricies eleifend nec non eros.
+                            My experience in web development covers several different technologies. 
+                            My background is heavily development in the MERN stack, and I received a corresponding certification from the University of Texas in Austin in 2018. 
+                            However, I have also crossed into other areas as well and while I excel in frontend development I have worked in backend. 
+                            Some of those technologies include Java with the JSP framework on the corporate level, Angular 2+, Apache server, and some of the Microsoft Office Suite of development tools like Access and SharePoint. 
                        </p>
                         <p>
                             &nbsp; <Link to="/GameDev" class="sublink"> >> See More...</Link>
@@ -43,21 +38,21 @@ function Dev(props) {
                             </a>
                         </article>
                         <article className="weblink">
-                            <a href="https://immense-castle-94064.herokuapp.com/login.html" target="_blank">
-                                <img src="images/Dev/test.png" alt="Ramer Motorsports Logo" className="webImg" />
-                                <p class="sublink"> >> See More... </p>
-                            </a>
-                        </article>
-                        <article className="weblink">
                             <a href="http://chimneyelves.com/" target="_blank">
                                 <img src="images/Dev/test.png" alt="Ramer Motorsports Logo" className="webImg" />
-                                <p class="sublink"> >> See More... </p>
+                                <p class="sublink"> >> Chimney Elves  - Business Website </p>
+                            </a>
+                        </article>
+                        <article className="weblink">
+                            <a href="https://mmartnick.github.io/GifTastic/" target="_blank">
+                                <img src="images/Dev/test.png" alt="Ramer Motorsports Logo" className="webImg" />
+                                <p class="sublink"> GifTastic - Gif API search app</p>
                             </a>
                         </article>
                         <article className="weblink">
                             <a href="https://immense-castle-94064.herokuapp.com/login.html" target="_blank">
                                 <img src="images/Dev/test.png" alt="Ramer Motorsports Logo" className="webImg" />
-                                <p class="sublink"> >> See More... </p>
+                                <p class="sublink"> >> FridgEd - Recipe Sharing Social Media</p>
                             </a>
                         </article>
                     </div>
@@ -67,15 +62,11 @@ function Dev(props) {
                     <article className="project">
                         <p className="subt"> Game Development</p>
                         <p className="de">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et porttitor orci, ut fermentum tellus.
-                            Aliquam placerat, dolor in lobortis semper, diam sapien bibendum lectus, eget dictum leo odio id enim.
-                            Cras commodo facilisis lorem, quis laoreet mauris sodales eget.
-                            Duis pellentesque magna id nisl pretium, ut euismod ante viverra.
-                            Praesent facilisis nisi vel scelerisque elementum. Nullam eu varius nulla, interdum sagittis metus.
-                            Cras et bibendum felis, eu aliquet enim. Donec dui velit, volutpat sed mattis non, maximus a justo.
-                            Nunc vitae ante convallis, sollicitudin eros eget, volutpat leo.
-                            Vivamus malesuada auctor auctor. Aenean scelerisque lacinia mi.
-                            Phasellus non dui sit amet urna ultricies eleifend nec non eros.
+                            Game development has been mostly a newer experience largely guided by my master's degree program through Full Sail University, the MS in Mobile Game Development.  
+                            I have experimented with web-based games built in JavaScript with jQuery as well as the Impact game engine. 
+                            I have also worked with Cocos 2D in C++, but my primary experience has been working in C# with the unity framework. 
+                            My current project is top down roleplaying game using advanced pathfinding and mobile device light sensor data, my secondary project has been an endless runner currently available on the Google Play Store. 
+                            Follow the link below to see more.  
                        </p>
                         <p>
                             &nbsp; <Link to="/GameDev" class="sublink"> >> See More...</Link>

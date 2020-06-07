@@ -2,6 +2,8 @@
 import React from 'react';
 
 import '../css/Title.css';
+import Images from './Art/Images';
+
 
 function Art(props) {
     return (
@@ -12,7 +14,7 @@ function Art(props) {
             </section>
             </div>
 
-
+            <Images></Images>
             </div>
     )
 }

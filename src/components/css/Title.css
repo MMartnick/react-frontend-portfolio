@@ -37,9 +37,10 @@ nav {
 }
 
 .sublink {
-    float:right;
+    float: right;
     padding-right: 4vw;
-    font-style:italic;
+    font-style: italic;
+    font-size: 1em;
 }
 
     .sublink:link {

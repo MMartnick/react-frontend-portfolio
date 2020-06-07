@@ -1,0 +1,61 @@
+
+.leftSide {
+    width: 45vw;
+    margin-left: 2vw;
+    padding-top: 2vh;
+}
+
+.artSub {
+    width: 40vw;
+    text-align: left;
+    font-size: 2.3em;
+    font-family: 'Raleway', sans-serif;
+    border-left: #3F3C3C solid 3px;
+    padding-left: 1vw;
+    margin-top: 1vh;
+}
+
+.artDesc {
+    float: left;
+    width: 45vw;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    border-left: #3F3C3C solid 3px;
+    border-bottom: #3F3C3C solid 3px;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-top: 1vh;
+}
+
+.artList {
+    float: left;
+    width: 45vw;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    border-left: #3F3C3C solid 3px;
+    border-bottom: #3F3C3C solid 3px;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    margin: 0;
+}
+
+.artItem {
+    margin-left: 1vw;
+    margin-top: 1vh;
+    width: 40vw;
+}
+
+.pad {
+    padding: 10vh;
+    width: 35vw;
+}
+
+.gallery {
+    float: right;
+    padding-right: 1vh;
+    width: 45vw;
+    color: #ffffff;
+    margin-top: -45vh;
+}

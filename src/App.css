@@ -40,10 +40,16 @@
 }
     */
 nav {
-    margin-top: 2vh;
+    margin-top: 1vh;
     display: inline;
     float: right;
     position: static;
+}
+
+.headIcon {
+    float: left;
+    padding-left: 4vw;
+    margin-top: 3vh;
 }
 
 .navlink {
@@ -69,11 +75,12 @@ nav {
         text-decoration-color: #ffffff;
     }
 
-.fab {
+.faHead {
     font-size: 2.2em;
     color: #ffffff;
     padding-right: 1.3vw;
     text-decoration: none;
+    margin-top: 1vh;
 }
 
 /* End header section ====================================================*/

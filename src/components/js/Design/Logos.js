@@ -16,7 +16,7 @@ function Logos(props) {
             </section>
 
             <div className="logos">
-                <img src="images/Design/moto.png" alt="Ramer Motorsports Logo" className="logoImg" />
+                <img src="/images/Design/moto.png" alt="Ramer Motorsports Logo" className="logoImg" />
                 <img src="/images/Design/artif.png" alt="Artifical Nocturne Logo" className="logoImg" />
                 <img src="/images/Design/nineteen.png" alt="Concept1984 Logo" className="logoImg" />
                 <img src="/images/Design/tcp.png" alt="Corporate News Letter Logo" className="logoImg" />

@@ -15,21 +15,22 @@ function App() {
         <BrowserRouter>
 
             <header className="App-header">
+                <p className="headIcon"> Please excuse the mess, this site is still under construction</p>
                 <nav>
                     <Link to="/" class="navlink">Main</Link>
                     <Link to="/Dev" class="navlink">Web & Software Development</Link>
                     <Link to="/Design" class="navlink">Graphic Design</Link>
                     <Link to="/Art" class="navlink">Fine Art</Link>
-
+                  
                     <a href="https://www.instagram.com/doom_monsta/" target="_blank">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram  faHead"></i>
                     </a>
                     <a href="https://github.com/mmartnick/" target="_blank">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github faHead"></i>
                     </a>
 
                     <a href="https://www.linkedin.com/in/matthew-martnick/" target="_blank">
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin faHead"></i>
                     </a>
                 </nav>
             </header>

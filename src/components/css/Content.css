@@ -84,6 +84,47 @@ p {
     margin-top: 2vh;
 }
 
+.faDev {
+    font-size: 4em;
+    color: #3F3C3C;
+    padding: 2vw;
+    text-decoration: none;
+    margin-top: 1vh;
+}
+
+.gameVid {
+    float: left;
+    margin: 1vw;
+    margin-left: 30vh;
+    width: 31vw;
+}
+
+.anImg {
+    float: right;
+    margin: 1vw;
+    margin-right: 32vh;
+    width: 31vw;
+    border: #3F3C3C solid 1px;
+    border-radius: 10px;
+}
+
+.rpgImg {
+    float: left;
+    margin: 1vw;
+    margin-left: 31vh;
+    width: 42vw;
+    border: #3F3C3C solid 1px;
+    border-radius: 10px;
+}
+
+.sublink {
+    float: right;
+    padding-right: 4vw;
+    font-style: italic;
+    font-size: 1em;
+}
+
 .pad {
     height: 10vh;
 }
+
