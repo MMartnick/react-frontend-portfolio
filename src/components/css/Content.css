@@ -128,3 +128,135 @@ p {
     height: 10vh;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .highlight {
+        margin: 0 auto;
+        padding-top: 2vh;
+        margin-bottom: 2vh;
+        width: 99%;
+        z-index: 2;
+        height: 60vh;
+    }
+
+    .subtitle {
+        width: 90vw;
+        text-align: left;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        margin-left: 5vw;
+        margin-right: 15vw;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .desc {
+        width: 85vw;
+        text-align: left;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        margin-left: 5vw;
+        margin-right: 15vw;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .logos {
+        width: 98vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .logoImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 32vw;
+        padding: 1vw;
+    }
+
+    .albums {
+        width: 96vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .albumImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 22vw;
+        margin: 2vw;
+        margin-top: 5vh;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .gameart {
+        width: 96vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .gameImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 75vw;
+        margin: 1vw;
+        margin-top: 2vh;
+    }
+
+    .faDev {
+        font-size: 4em;
+        color: #3F3C3C;
+        padding: 2vw;
+        text-decoration: none;
+        margin-top: 1vh;
+        margin-left: 3vh;
+    }
+
+    .gameVid {
+        float: left;
+        margin: 1vw;
+        margin-left: 8vh;
+        width: 75vw;
+    }
+
+    .anImg {
+        float: right;
+        margin: 1vw;
+        margin-right: 6vh;
+        width: 75vw;
+    }
+
+    .rpgImg {
+        float: left;
+        margin: 1vw;
+        margin-left: 3vh;
+        width: 88vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .sublink {
+        float: right;
+        padding-right: 4vw;
+        font-style: italic;
+        font-size: 1em;
+    }
+
+    .pad {
+        height: 8vh;
+    }
+
+}

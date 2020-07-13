@@ -11,14 +11,18 @@ import '../../css/Title.css';
 function GameDev(props) {
     return (
         <div>
-            <div className="top">
+            <div className="devBanner">
                 <section id="maintitle">
                     <p id="topic">Web & Software Development</p>
                 </section>
             </div>
 
             <AN></AN>
+            <p className="pad"> </p>
+            <p className="pad"> </p>
             <Outrun></Outrun>
+            <p className="pad"> </p>
+            <p className="pad"> </p>
             <FinalFantasy></FinalFantasy>
         </div>
     )

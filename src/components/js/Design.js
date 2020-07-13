@@ -11,7 +11,7 @@ function Design(props) {
     return (
 
         <div className="container">
-            <div className="top">
+            <div className="desBanner">
                 <section id="maintitle">
                     <p id="topic">Graphic Design</p>
                 </section>

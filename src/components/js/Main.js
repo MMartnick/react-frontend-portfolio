@@ -10,7 +10,14 @@ function Main(props) {
     return (
         <div className="container">
             <Name></Name>
+
+
+            <div>
+                <p className="logos">We're still undergoing development so please excuse the mess.</p>
+            </div>
         </div>
+
+
     )
 }
 

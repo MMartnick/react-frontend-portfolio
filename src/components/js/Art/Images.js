@@ -22,33 +22,23 @@ function Images(props) {
 
     return (
         <div>
+
             <section className="leftSide">
                 <p className="artSub">Painting</p>
-                <p className="artDesc">
-                    I have always had an interest in drawing and studied different eras of art history and styles but did not truly begin painting until 2006.
-                    Over the years my work has gone through a variety of changes to draw from different aspects of design, graffiti, fantasy art, and the baroque period.
-                    These genres have affected my work the most and I have found that I enjoy working as a portrait and figure painter.
-                    What is shown through as the most defining feature of my artwork is the consistent use of high color contrast and is what is set my work apart in in gallery settings.
+                <article className="artDesc">
+                    <p className="break">
+                        I have always had an interest in drawing and studied different eras of art history and styles but did not truly begin painting until 2006.
+                    Over the years my work has gone through a variety of changes to draw from different aspects of design, graffiti, fantasy art, and the baroque period.</p>
+                    <p className="break">
+                        These genres have affected my work the most and I have found that I enjoy working as a portrait and figure painter.
+                        What is shown through as the most defining feature of my artwork is the consistent use of high color contrast and is what is set my work apart in in gallery settings.
                     </p>
-
-                <p className="pad"> &nbsp; </p>
-
-                <p className="artSub">Experience and Exhibitions</p>
-                <ul className="artList">
-                    <li className="artItem">2018: Conception Art Collective - Exhibition</li>
-                    <li className="artItem">2016: The Link - Exhibition</li>
-                    <li className="artItem">2016: Preposterous Magazine - Publication</li>
-                    <li className="artItem">2015 - 2016:  Jankura Art Space - Artist in residence</li>
-                    <li className="artItem">2015: Jeonbuk Art Museum - Exhibition</li>
-                    <li className="artItem">2015: SYLC Charity Art Fair - Exhibition</li>
-                    <li className="artItem">2015: 12th Yongson International Art Festival - Exhibition</li>
-                    <li className="artItem">2013: Northampton Area School District - Extracurricular Art Instructor</li>
-                    <li className="artItem">2013: FOA Gallery - Exhibition</li>
-                    <li className="artItem">2012 - 2013: Alternative Gallery - Artist in residence/Youth Art Instructor</li>
-                </ul>
+                </article>
             </section>
 
-            <section className="gallery">
+
+
+            <div className="gallery">
                 <Gallery photos={ImagesPath} onClick={openLightbox} />
                 <ModalGateway>
                     {viewerIsOpen ? (
@@ -64,6 +54,24 @@ function Images(props) {
                         </Modal>
                     ) : null}
                 </ModalGateway>
+            </div>
+
+            <p className="pad"> &nbsp; </p>
+
+            <section className="leftBottom">
+                <p className="artSub">Experience and Exhibitions</p>
+                <ul className="artList">
+                    <li className="artItem"><b>2018:</b> Conception Art Collective - Exhibition</li>
+                    <li className="artItem"><b>2016:</b> The Link - Exhibition</li>
+                    <li className="artItem"><b>2016:</b> Preposterous Magazine - Publication</li>
+                    <li className="artItem"><b>2015 - 2016:</b>  Jankura Art Space - Artist in residence</li>
+                    <li className="artItem"><b>2015:</b> Jeonbuk Art Museum - Exhibition</li>
+                    <li className="artItem"><b>2015:</b> SYLC Charity Art Fair - Exhibition</li>
+                    <li className="artItem"><b>2015:</b> 12th Yongson International Art Festival - Exhibition</li>
+                    <li className="artItem"><b>2013:</b> Northampton Area School District - Extracurricular Art Instructor</li>
+                    <li className="artItem"><b>2013:</b> FOA Gallery - Exhibition</li>
+                    <li className="artItem"><b>2012 - 2013:</b> Alternative Gallery - Artist in residence/Youth Art Instructor</li>
+                </ul>
             </section>
         </div>
     );

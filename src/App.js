@@ -15,13 +15,14 @@ function App() {
         <BrowserRouter>
 
             <header className="App-header">
-                <p className="headIcon"> Please excuse the mess, this site is still under construction</p>
+               
                 <nav>
                     <Link to="/" class="navlink">Main</Link>
                     <Link to="/Dev" class="navlink">Web & Software Development</Link>
                     <Link to="/Design" class="navlink">Graphic Design</Link>
                     <Link to="/Art" class="navlink">Fine Art</Link>
-                  
+
+
                     <a href="https://www.instagram.com/doom_monsta/" target="_blank">
                         <i class="fab fa-instagram  faHead"></i>
                     </a>

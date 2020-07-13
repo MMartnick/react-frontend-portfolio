@@ -24,7 +24,7 @@ function OutRun(props) {
 
             <div>
                 <iframe className="gameVid" width="560" height="315" src="https://www.youtube.com/embed/4uTy1rmPGwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <img src="/images/Design/outrun.png" alt="Outrunner Logo" className="logoImg" />
+                <img src="/images/Design/outrun.png" alt="Outrunner Logo" className="anImg" />
             </div>
         </div>
     )

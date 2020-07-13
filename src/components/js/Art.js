@@ -8,7 +8,7 @@ import Images from './Art/Images';
 function Art(props) {
     return (
         <div>
-        <div className="top">
+        <div className="faBanner">
             <section id="maintitle">
                 <p id="topic">Fine Art</p>
             </section>

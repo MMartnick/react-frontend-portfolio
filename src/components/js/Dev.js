@@ -8,7 +8,7 @@ function Dev(props) {
     return (
         <div>
 
-            <div className="top">
+            <div className="devBanner">
                 <section id="maintitle">
                     <p id="topic">Web & Software Development</p>
                 </section>
