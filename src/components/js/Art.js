@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import '../css/Title.css';
+import '../css/Main.css';
 import Images from './Art/Images';
 
 

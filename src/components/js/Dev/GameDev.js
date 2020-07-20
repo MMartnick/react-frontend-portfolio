@@ -6,7 +6,7 @@ import AN from './AN';
 import Outrun from './OutRun';
 import FinalFantasy from './FinalFantasy.js';
 
-import '../../css/Title.css';
+import '../../css/Main.css';
 
 function GameDev(props) {
     return (

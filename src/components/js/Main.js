@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import '../css/Name.css';
+import '../css/Main.css';
 
 import Name from './Name';
 

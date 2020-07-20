@@ -35,9 +35,26 @@ CSS Media Queries
 
 @media (max-width: 1199.98px) { * Large devices (desktops, less than 1200px) 1920 height*/}
 @media (max-width: 1024.98px) { /* big landscape tablets, laptops, and desktops  600 hieght*/}
+@media screen and (max-width: 995px) , screen and (max-height: 700px) { /* Use comma to constrain responsiveness to a hieght and width */ }
 @media (max-width: 991.98px) { /* Medium devices (tablets, less than 992px) */}
 @media (max-width: 767.98px) { /* Small devices (landscape phones, less than 768px)  1280 hieght*/}
 @media (max-width: 640.98px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */}
 @media (max-width: 575.98px) { /* 960 height*/}
 @media (max-width: 480.98px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 800 height*/}
 @media (max-width: 319.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/}
+
+
+1 - Flashback = 1 hour
+2 - Kalm to Junon = 3 hour
+3 - Junon and Boat = 2 hour
+4 - Costa Del Sol to Corel = 1 hour
+5 - Gold Saucer/Desert Prison = 2 hour
+6 - Gongonga = 1 hour
+7 - Cosmo Canyon = 2 hour
+8 - Nibelheim = 2 hour
+9 - Rocket Town = 2 hour
+10- Wutai = 2 hour
+11 - Temple of the Ancients = 3 hour
+12 - Forggoten City = 2 hour
+13 - Icicle Area = 2 hour
+14 - Whirlwind Maze = 3 hour
