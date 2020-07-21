@@ -59,7 +59,7 @@ function Images(props) {
             <p className="pad"> &nbsp; </p>
 
             <section className="leftBottom">
-                <p className="artSub">Experience and Exhibitions</p>
+                <p className="subt">Experience and Exhibitions</p>
                 <ul className="artList">
                     <li className="artItem"><b>2018:</b> Conception Art Collective - Exhibition</li>
                     <li className="artItem"><b>2016:</b> The Link - Exhibition</li>
