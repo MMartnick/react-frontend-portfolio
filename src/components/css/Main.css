@@ -490,9 +490,9 @@ p {
     @media screen and (max-width:800.98px), screen and (max-height: 1280.98px) {
         #maintitle {
             margin: auto;
-            padding-top: 15vh;
+            padding-top: 20vh;
             padding-bottom: 10vh;
-            width: 60vw;
+            width: 40vw;
             z-index: 2;
         }
 
@@ -533,28 +533,28 @@ p {
             background-image: url(/images/banner-temp.png);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 30vh;
+            height: 45vh;
         }
 
         .desBanner {
             background-image: url(/images/banner-des1.png);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 30vh;
+            height: 45vh;
         }
 
         .faBanner {
             background-image: url(/images/banner-fa1.png);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 30vh;
+            height: 45vh;
         }
 
         .devBanner {
             background-image: url(/images/banner-dev1.png);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 30vh;
+            height: 45vh;
         }
 
         .sublink {
