@@ -1005,7 +1005,7 @@
     .pad {
         padding: 1vh;
         width: 95vw;
-        height: 140vh;
+        height: 10vh;
     }
 
     .break {
@@ -1359,59 +1359,6 @@
 }
 
 @media screen and (max-width:360.98px), screen and (max-height: 740.98px) {
-    .leftSide {
-        width: 92vw;
-        padding-top: 5vh;
-        margin: 0 auto;
-    }
-
-    .gallery {
-        margin: 0 auto;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        width: 92vw;
-        color: #ffffff;
-    }
-
-    .leftBottom {
-        width: 92vw;
-        margin-top: 4vh;
-        margin: 0 auto;
-    }
-
-    .artSub {
-        width: 90vw;
-        text-align: left;
-        font-size: 1.5em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-        margin-top: 0vh;
-    }
-
-    .artDesc {
-        width: 90vw;
-        text-align: left;
-        font-size: .9em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding: 2vw;
-    }
-
-    .artList {
-        width: 90vw;
-        text-align: left;
-        font-size: .9em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 2vw;
-    }
-
-    .artItem {
-        margin-left: 2vw;
-        margin-top: 1.5vh;
-        width: 80vw;
-    }
 
     .pad {
         padding: 1vh;
