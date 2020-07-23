@@ -243,73 +243,7 @@ p {
         margin: auto;
         padding-top: 17vh;
         padding-bottom: 10vh;
-        width: 60vw;
-        z-index: 2;
-    }
-
-    #topic {
-        text-align: left;
-        font-size: 2.0em;
-        font-family: 'Raleway', sans-serif;
-        border-left: white solid 3px;
-        border-bottom: white solid 3px;
-        padding-left: 1vw;
-        padding-bottom: 1vw;
-    }
-
-    #studio {
-        text-align: left;
-        font-size: 1.8em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 1vw;
-    }
-
-    #occupation {
-        text-align: left;
-        font-size: .9em;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-left: 1.2vw;
-        padding-bottom: 1vw;
-        font-family: 'Muli', sans-serif;
-    }
-
-    .container {
-        background-image: url(/images/banner-temp.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 40vh;
-    }
-
-    .desBanner {
-        background-image: url(/images/banner-des1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 40vh;
-    }
-
-    .faBanner {
-        background-image: url(/images/banner-fa1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 40vh;
-    }
-
-    .devBanner {
-        background-image: url(/images/banner-dev1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 40vh;
-    }
-}
-
-@media (max-width: 993px) {
-    #maintitle {
-        margin: auto;
-        padding-top: 17vh;
-        padding-bottom: 10vh;
-        width: 60vw;
+        width: 50vw;
         z-index: 2;
     }
 
@@ -441,9 +375,9 @@ p {
 
     #maintitle {
         margin: auto;
-        padding-top: 17vh;
+        padding-top: 16vh;
         padding-bottom: 10vh;
-        width: 60vw;
+        width: 50vw;
         z-index: 2;
     }
 
@@ -583,7 +517,73 @@ p {
 
     #topic {
         text-align: left;
-        font-size: 2.0em;
+        font-size: 1.7em;
+        font-family: 'Raleway', sans-serif;
+        border-left: white solid 3px;
+        border-bottom: white solid 3px;
+        padding-left: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    #studio {
+        text-align: left;
+        font-size: 1.8em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 1vw;
+    }
+
+    #occupation {
+        text-align: left;
+        font-size: .9em;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-left: 1.2vw;
+        padding-bottom: 1vw;
+        font-family: 'Muli', sans-serif;
+    }
+
+    .container {
+        background-image: url(/images/banner-temp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .desBanner {
+        background-image: url(/images/banner-des1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .faBanner {
+        background-image: url(/images/banner-fa1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .devBanner {
+        background-image: url(/images/banner-dev1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width:640.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
+    #maintitle {
+        margin: auto;
+        padding-top: 17vh;
+        padding-bottom: 10vh;
+        width: 60vw;
+        z-index: 2;
+    }
+
+    #topic {
+        text-align: left;
+        font-size: 1.6em;
         font-family: 'Raleway', sans-serif;
         border-left: white solid 3px;
         border-bottom: white solid 3px;
@@ -640,206 +640,7 @@ p {
 
 /*=======================================================================================================================================================================*/
 
-
-@media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
-    #maintitle {
-        margin: auto;
-        padding-top: 15vh;
-        padding-bottom: 10vh;
-        width: 60vw;
-        z-index: 2;
-    }
-
-    #topic {
-        text-align: left;
-        font-size: 1.8em;
-        font-family: 'Raleway', sans-serif;
-        border-left: white solid 3px;
-        border-bottom: white solid 3px;
-        padding-left: 1vw;
-        padding-bottom: 1vw;
-    }
-
-    #studio {
-        text-align: left;
-        font-size: 1.8em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 1vw;
-    }
-
-    #occupation {
-        text-align: left;
-        font-size: .9em;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-left: 1.2vw;
-        padding-bottom: 1vw;
-        font-family: 'Muli', sans-serif;
-    }
-
-    .container {
-        background-image: url(/images/banner-temp.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .desBanner {
-        background-image: url(/images/banner-des1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .faBanner {
-        background-image: url(/images/banner-fa1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .devBanner {
-        background-image: url(/images/banner-dev1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-}
-
-@media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
-    #maintitle {
-        margin: auto;
-        padding-top: 15vh;
-        padding-bottom: 10vh;
-        width: 60vw;
-        z-index: 2;
-    }
-
-    #topic {
-        text-align: left;
-        font-size: 1.8em;
-        font-family: 'Raleway', sans-serif;
-        border-left: white solid 3px;
-        border-bottom: white solid 3px;
-        padding-left: 1vw;
-        padding-bottom: 1vw;
-    }
-
-    #studio {
-        text-align: left;
-        font-size: 1.8em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 1vw;
-    }
-
-    #occupation {
-        text-align: left;
-        font-size: .9em;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-left: 1.2vw;
-        padding-bottom: 1vw;
-        font-family: 'Muli', sans-serif;
-    }
-
-    .container {
-        background-image: url(/images/banner-temp.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .desBanner {
-        background-image: url(/images/banner-des1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .faBanner {
-        background-image: url(/images/banner-fa1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .devBanner {
-        background-image: url(/images/banner-dev1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-}
-
-@media (max-width: 689px) {
-    #maintitle {
-        margin: auto;
-        padding-top: 15vh;
-        padding-bottom: 10vh;
-        width: 60vw;
-        z-index: 2;
-    }
-
-    #topic {
-        text-align: left;
-        font-size: 1.8em;
-        font-family: 'Raleway', sans-serif;
-        border-left: white solid 3px;
-        border-bottom: white solid 3px;
-        padding-left: 1vw;
-        padding-bottom: 1vw;
-    }
-
-    #studio {
-        text-align: left;
-        font-size: 1.8em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 1vw;
-    }
-
-    #occupation {
-        text-align: left;
-        font-size: .9em;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-left: 1.2vw;
-        padding-bottom: 1vw;
-        font-family: 'Muli', sans-serif;
-    }
-
-    .container {
-        background-image: url(/images/banner-temp.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .desBanner {
-        background-image: url(/images/banner-des1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .faBanner {
-        background-image: url(/images/banner-fa1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-
-    .devBanner {
-        background-image: url(/images/banner-dev1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 30vh;
-    }
-}
-
-@media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
+@media (max-width:614.98px) {
     #maintitle {
         margin: auto;
         padding-top: 15vh;
@@ -971,12 +772,14 @@ p {
     }
 }
 
-@media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
+
+@media screen and (max-width:360.98px), screen and (max-height: 740.98px) and (orientation: portrait) {
+
     #maintitle {
         margin: auto;
-        padding-top: 17vh;
+        padding-top: 15vh;
         padding-bottom: 10vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
     }
 
@@ -1012,44 +815,44 @@ p {
         background-image: url(/images/banner-temp.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 33vh;
+        height: 30vh;
     }
 
     .desBanner {
         background-image: url(/images/banner-des1.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 33vh;
+        height: 30vh;
     }
 
     .faBanner {
         background-image: url(/images/banner-fa1.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 33vh;
+        height: 30vh;
     }
 
     .devBanner {
         background-image: url(/images/banner-dev1.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 33vh;
+        height: 30vh;
     }
 }
 
-@media screen and (max-width:360.98px), screen and (max-height: 780.98px) and (orientation: portrait) {
+@media screen and (max-width:360.98px), screen and (max-height: 640.98px) and (orientation: portrait) {
 
     #maintitle {
         margin: auto;
-        padding-top: 17vh;
+        padding-top: 15.5vh;
         padding-bottom: 10vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
     }
 
     #topic {
         text-align: left;
-        font-size: 2.0em;
+        font-size: 1.6em;
         font-family: 'Raleway', sans-serif;
         border-left: white solid 3px;
         border-bottom: white solid 3px;
@@ -1059,7 +862,7 @@ p {
 
     #studio {
         text-align: left;
-        font-size: 1.8em;
+        font-size: 1.6em;
         font-family: 'Raleway', sans-serif;
         border-left: #3F3C3C solid 3px;
         padding-left: 1vw;
