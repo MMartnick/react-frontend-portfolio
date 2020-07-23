@@ -33,74 +33,58 @@ React
 
 CSS Media Queries =============================================================================================================
 
-@media screen and (max-width:1366.98px), screen and (max-height: 768.98px) {
+@media (max-width: 1312px) {
 }
 
-@media screen and (max-width:1920.98px), screen and (max-height: 1080.98px) {
+@media (max-width: 1280px) {
 }
 
-@media (max-width: 1280.98px), screen and (max-height: 800.98px) { /* Small devices (landscape phones, less than 768px)  1280 hieght*/
+    @media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
+    }
+
+@media (max-width: 992px) {
 }
 
-@media (max-width: 1199.98px) { /* Large devices (desktops, less than 1200px)  1920 height*/
+    @media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
+    }
+
+    @media screen and (max-width:896.98px), screen and (max-height: 414.98px) and (orientation: landscape) {
+    }
+
+    @media screen and (max-width:812.98px), screen and (max-height: 375.98px) and (orientation: landscape) {
+    }
+
+    @media screen and (max-width:780.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
+    }
+
+    /*=======================================================================================================================================================================*/
+
+
+    @media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
+    }
+
+    @media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
+    }
+
+@media (max-width: 688px) {
 }
 
-@media (max-width:1024.98px) { /* big landscape tablets, laptops, and desktops  600 hieght*/
-}
+    @media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
+    }
 
-@media screen and (max-width:1024.98px), screen and (max-height: 1366.98px) {
-}
+    @media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
+    }
 
-@media (max-width: 991.98px) { /* Medium devices (tablets, less than 992px) */
-}
+    @media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
+    }
 
-@media (max-width: 962.98px), screen and (max-height: 601.98px) {
-}
+    @media screen and (max-width:360.98px), screen and (max-height: 780.98px) and (orientation: portrait) {
+    }
+    /*=======================================================================================================================================================================*/
 
-@media screen and (max-width:800.98px), screen and (max-height: 1280.98px) {
-}
+    @media (max-width:319.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
 
-@media screen and (max-width:780.98px), screen and (max-height: 360.98px) {
-}
-
-@media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) {
-}
-
-@media (max-width: 767.98px) { /* Small devices (landscape phones, less than 768px)  1280 hieght*/
-}
-
-@media (max-width: 640.98px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-}
-
-@media (max-width: 601.98px), screen and (max-height: 962.98px) {
-}
-
-@media (max-width: 575.98px) { /* 960 height*/
-}
-
-@media (max-width:480.98px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 800 height*/
-}
-
-@media screen and (max-width:414.98px), screen and (max-height: 896.98px) {
-}
-
-@media screen and (max-width:375.98px), screen and (max-height: 667.98px) {
-}
-
-@media screen and (max-width:375.98px), screen and (max-height: 812.98px) {
-}
-
-@media screen and (max-width:360.98px), screen and (max-height: 640.98px) { /* 360 X 640 */
-}
-
-@media screen and (max-width:360.98px), screen and (max-height: 740.98px) {
-}
-
-@media screen and (max-width:360.98px), screen and (max-height: 780.98px) {
-}
-
-@media (max-width:319.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
-}
+    }
 
 CSS Media Queries =============================================================================================================
 
