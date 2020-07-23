@@ -1,4 +1,3 @@
-/*=====????=====*/
 
 #maintitle {
     margin: auto;
@@ -102,8 +101,7 @@ p {
 /*=======================================================================================================================================================================*/
 /*=======================================================================================================================================================================*/
 /*=======================================================================================================================================================================*/
-
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
 
     #maintitle {
         margin: auto;
@@ -168,10 +166,76 @@ p {
         background-size: cover;
         height: 50vh;
     }
-}
+
+    @media (min-width: 1025px) {
+
+        #maintitle {
+            margin: auto;
+            padding-top: 22vh;
+            padding-bottom: 10vh;
+            width: 40vw;
+            z-index: 2;
+        }
+
+        #topic {
+            text-align: left;
+            font-size: 2.9em;
+            font-family: 'Raleway', sans-serif;
+            border-left: white solid 3px;
+            border-bottom: white solid 3px;
+            padding-left: 1vw;
+            padding-bottom: 1vw;
+        }
+
+        #studio {
+            text-align: left;
+            font-size: 2.9em;
+            font-family: 'Raleway', sans-serif;
+            border-left: #3F3C3C solid 3px;
+            padding-left: 1vw;
+        }
+
+        #occupation {
+            text-align: left;
+            font-size: 1.4em;
+            border-left: #3F3C3C solid 3px;
+            border-bottom: #3F3C3C solid 3px;
+            padding-left: 1.2vw;
+            padding-bottom: 1vw;
+            font-family: 'Muli', sans-serif;
+        }
+
+        .container {
+            background-image: url(/images/banner-temp.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50vh;
+        }
+
+        .desBanner {
+            background-image: url(/images/banner-des1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50vh;
+        }
+
+        .faBanner {
+            background-image: url(/images/banner-fa1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50vh;
+        }
+
+        .devBanner {
+            background-image: url(/images/banner-dev1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50vh;
+        }
+    }
     /*=======================================================================================================================================================================*/
     /*=======================================================================================================================================================================*/
-  
+
     @media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
         #maintitle {
             margin: auto;
@@ -238,7 +302,7 @@ p {
         }
     }
 
-    @media (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
+    @media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
         #maintitle {
             margin: auto;
             padding-top: 17vh;
@@ -575,7 +639,73 @@ p {
         }
     }
 
-    @media (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
+    @media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
+        #maintitle {
+            margin: auto;
+            padding-top: 15vh;
+            padding-bottom: 10vh;
+            width: 60vw;
+            z-index: 2;
+        }
+
+        #topic {
+            text-align: left;
+            font-size: 1.8em;
+            font-family: 'Raleway', sans-serif;
+            border-left: white solid 3px;
+            border-bottom: white solid 3px;
+            padding-left: 1vw;
+            padding-bottom: 1vw;
+        }
+
+        #studio {
+            text-align: left;
+            font-size: 1.8em;
+            font-family: 'Raleway', sans-serif;
+            border-left: #3F3C3C solid 3px;
+            padding-left: 1vw;
+        }
+
+        #occupation {
+            text-align: left;
+            font-size: .9em;
+            border-left: #3F3C3C solid 3px;
+            border-bottom: #3F3C3C solid 3px;
+            padding-left: 1.2vw;
+            padding-bottom: 1vw;
+            font-family: 'Muli', sans-serif;
+        }
+
+        .container {
+            background-image: url(/images/banner-temp.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 30vh;
+        }
+
+        .desBanner {
+            background-image: url(/images/banner-des1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 30vh;
+        }
+
+        .faBanner {
+            background-image: url(/images/banner-fa1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 30vh;
+        }
+
+        .devBanner {
+            background-image: url(/images/banner-dev1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 30vh;
+        }
+    }
+
+    @media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
         #maintitle {
             margin: auto;
             padding-top: 15vh;
