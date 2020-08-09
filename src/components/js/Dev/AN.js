@@ -20,7 +20,7 @@ function AN(props) {
                 <iframe className="gameVid" width="560" height="315" src="https://www.youtube.com/embed/nAPBIC37qZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </div>
-            <p className="pad">
+            <p className="padDev">
                 &nbsp;
                     </p>  
         </div>

@@ -54,11 +54,6 @@
     border-radius: 10px;
 }
 
-
-.faDevGroup {
-    
-}
-
 .faDev {
     font-size: 5em;
     color: #3F3C3C;
@@ -67,3 +62,538 @@
     margin-left: 2vw;
 }
 
+@media (max-width: 1312px) {
+}
+
+@media (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
+}
+
+@media screen and (max-width:896.98px), screen and (max-height: 414.98px) and (orientation: landscape) {
+}
+
+@media screen and (max-width:812.98px), screen and (max-height: 375.98px) and (orientation: landscape) {
+}
+
+@media screen and (max-width:780.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
+}
+
+/*=======================================================================================================================================================================*/
+
+
+@media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
+    .highlightDev {
+        margin: 0 auto;
+        padding-top: 6vh;
+        padding-bottom: 0vh;
+        padding-left: 1vh;
+        width: 85%;
+        z-index: 2;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subtitleDev {
+        width: 60vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .descDev {
+        width: 85vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .softContent {
+        margin: 0 auto;
+        width: 85vw;
+    }
+
+
+    .gameVid {
+        margin: 0 auto;
+        width: 85vw;
+        height: 25vh;
+    }
+
+    .devImg {
+        margin: 0 auto;
+        width: 85vw;
+        border-radius: 10px;
+    }
+
+    .rpgImg {
+        width: 60vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .faDev {
+        font-size: 1em;
+        color: #3F3C3C;
+        padding: .5vw;
+        text-decoration: none;
+        margin-left: 0vw;
+    }
+}
+
+@media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
+    .highlightDev {
+        margin: 0 auto;
+        padding-top: 6vh;
+        padding-bottom: 0vh;
+        padding-left: 1vh;
+        width: 85%;
+        z-index: 2;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subtitleDev {
+        width: 60vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .descDev {
+        width: 85vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .softContent {
+        margin: 0 auto;
+        width: 85vw;
+    }
+
+
+    .gameVid {
+        margin: 0 auto;
+        width: 85vw;
+        height: 25vh;
+    }
+
+    .devImg {
+        margin: 0 auto;
+        width: 85vw;
+        border-radius: 10px;
+    }
+
+    .rpgImg {
+        width: 60vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .faDev {
+        font-size: 1em;
+        color: #3F3C3C;
+        padding: .5vw;
+        text-decoration: none;
+        margin-left: 0vw;
+    }
+}
+
+@media (max-width: 688px) {
+    .highlightDev {
+        margin: 0 auto;
+        padding-top: 6vh;
+        padding-bottom: 0vh;
+        padding-left: 1vh;
+        width: 85%;
+        z-index: 2;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subtitleDev {
+        width: 60vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .descDev {
+        width: 85vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .softContent {
+        margin: 0 auto;
+        width: 85vw;
+    }
+
+
+    .gameVid {
+        margin: 0 auto;
+        width: 85vw;
+        height: 25vh;
+    }
+
+    .devImg {
+        margin: 0 auto;
+        width: 85vw;
+        border-radius: 10px;
+    }
+
+    .rpgImg {
+        width: 60vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .faDev {
+        font-size: 1em;
+        color: #3F3C3C;
+        padding: .5vw;
+        text-decoration: none;
+        margin-left: 0vw;
+    }
+}
+
+@media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
+    .highlightDev {
+        margin: 0 auto;
+        padding-top: 6vh;
+        padding-bottom: 0vh;
+        padding-left: 1vh;
+        width: 85%;
+        z-index: 2;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subtitleDev {
+        width: 60vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .descDev {
+        width: 85vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .softContent {
+        margin: 0 auto;
+        width: 85vw;
+    }
+
+
+    .gameVid {
+        margin: 0 auto;
+        width: 85vw;
+        height: 25vh;
+    }
+
+    .devImg {
+        margin: 0 auto;
+        width: 85vw;
+        border-radius: 10px;
+    }
+
+    .rpgImg {
+        width: 60vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .faDev {
+        font-size: 1em;
+        color: #3F3C3C;
+        padding: .5vw;
+        text-decoration: none;
+        margin-left: 0vw;
+    }
+}
+
+@media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
+    .highlightDev {
+        margin: 0 auto;
+        padding-top: 6vh;
+        padding-bottom: 0vh;
+        padding-left: 1vh;
+        width: 85%;
+        z-index: 2;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subtitleDev {
+        width: 60vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .descDev {
+        width: 85vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .softContent {
+        margin: 0 auto;
+        width: 85vw;
+    }
+
+
+    .gameVid {
+        margin: 0 auto;
+        width: 85vw;
+        height: 25vh;
+    }
+
+    .devImg {
+        margin: 0 auto;
+        width: 85vw;
+        border-radius: 10px;
+    }
+
+    .rpgImg {
+        width: 60vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .faDev {
+        font-size: 1em;
+        color: #3F3C3C;
+        padding: .5vw;
+        text-decoration: none;
+        margin-left: 0vw;
+    }
+}
+
+@media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
+    .highlightDev {
+        margin: 0 auto;
+        padding-top: 6vh;
+        padding-bottom: 0vh;
+        padding-left: 1vh;
+        width: 85%;
+        z-index: 2;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subtitleDev {
+        width: 60vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .descDev {
+        width: 85vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .softContent {
+        margin: 0 auto;
+        width: 85vw;
+    }
+
+
+    .gameVid {
+        margin: 0 auto;
+        width: 85vw;
+        height: 25vh;
+    }
+
+    .devImg {
+        margin: 0 auto;
+        width: 85vw;
+        border-radius: 10px;
+    }
+
+    .rpgImg {
+        width: 60vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .faDev {
+        font-size: 1em;
+        color: #3F3C3C;
+        padding: .5vw;
+        text-decoration: none;
+        margin-left: 0vw;
+    }
+}
+
+@media screen and (max-width:360.98px), screen and (max-height: 780.98px) and (orientation: portrait) {
+    .highlightDev {
+        margin: 0 auto;
+        padding-top: 6vh;
+        padding-bottom: 0vh;
+        padding-left: 1vh;
+        width: 85%;
+        z-index: 2;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subtitleDev {
+        width: 60vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .descDev {
+        width: 85vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 0vw;
+        padding-top: 1vh;
+    }
+
+    .softContent {
+        margin: 0 auto;
+        width: 85vw;
+    }
+
+
+    .gameVid {
+        margin: 0 auto;
+        width: 85vw;
+        height: 25vh;
+    }
+
+    .devImg {
+        margin: 0 auto;
+        width: 85vw;
+        border-radius: 10px;
+    }
+
+    .rpgImg {
+        width: 60vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .faDev {
+        font-size: 1em;
+        color: #3F3C3C;
+        padding: .5vw;
+        text-decoration: none;
+        margin-left: 0vw;
+    }
+}
+/*=======================================================================================================================================================================*/
+
+@media (max-width:320.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
+
+    .highlightDev {
+        margin: 0 auto;
+        padding-top: 6vh;
+        padding-bottom: 0vh;
+        padding-left: 20vh;
+        width: 85%;
+        z-index: 2;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subtitleDev {
+        width: 60vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .descDev {
+        width: 65vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .softContent {
+        display: inline;
+        width: 75vw;
+    }
+
+
+    .gameVid {
+        margin: 1vw;
+        width: 32vw;
+    }
+
+    .devImg {
+        float: left;
+        margin: 1vw;
+        margin-left: 5vw;
+        width: 20vw;
+        border-radius: 10px;
+    }
+
+    .rpgImg {
+        float: right;
+        margin-right: 25vw;
+        width: 40vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 10px;
+    }
+
+    .faDev {
+        font-size: 1em;
+        color: #3F3C3C;
+        padding: .5vw;
+        text-decoration: none;
+        margin-left: 2vw;
+    }
+}

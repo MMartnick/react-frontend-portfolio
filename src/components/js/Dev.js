@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 
 import '../css/Dev.css';
+import '../css/Content.css';
+
 import Outrun from './Dev/OutRun';
 import AN from './Dev/AN';
 import FinalFantasy from './Dev/FinalFantasy';
@@ -32,7 +34,7 @@ function Dev(props) {
                         <p> &nbsp; </p>
                     </article>
 
-                    <p className="pad">
+                    <p className="padDev">
                         &nbsp;
                     </p>  
 

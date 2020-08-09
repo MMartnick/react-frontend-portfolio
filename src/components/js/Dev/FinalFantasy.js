@@ -27,10 +27,10 @@ function FinalFantasy(props) {
          
                 <img src="/images/Dev/ffScene.png" alt="RPG Scene" className="rpgImg" />
             </div>
-            <p className="pad">
+            <p className="padDev">
                 &nbsp;
                     </p>  
-            <p className="pad">
+            <p className="padDev">
                 &nbsp;
                     </p>  
         </div>
