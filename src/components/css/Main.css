@@ -1,4 +1,11 @@
 
+.mainMessage {
+    margin: 0 auto;
+    width: 35vw;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
 #maintitle {
     margin: auto;
     padding-top: 22vh;

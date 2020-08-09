@@ -2,22 +2,22 @@
     margin: 0 auto;
     margin-top: 4vh;
     padding-top: 1vh;
-    width: 65%;
+    width: 85%;
     z-index: 2;
     border-left: #3F3C3C solid 3px;
     border-bottom: #3F3C3C solid 3px;
 }
 
-.subt {
+.subDev {
     text-align: left;
-    font-size: 2.3em;
+    font-size: 2.5em;
     font-family: 'Raleway', sans-serif;
     padding-left: 1vw;
     padding-top: 1vh;
 }
 
 .de {
-    width: 60vw;
+    width: 75vw;
     text-align: left;
     font-size: 1.2em;
     font-family: 'Raleway', sans-serif;

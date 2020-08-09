@@ -1,0 +1,65 @@
+.highlightDes {
+    margin: 0 auto;
+    padding-top: 6vh;
+    padding-bottom: 0vh;
+    width: 85vw;
+    z-index: 2;
+    border-bottom: #3F3C3C solid 3px;
+}
+
+.subtitleDes {
+    width: 60vw;
+    text-align: left;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+
+.descDes {
+    width: 65vw;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 2vw;
+    padding-top: 1vh;
+}
+
+.logos {
+    margin: 0 auto;
+    width: 96vw;
+}
+
+.logoImg {
+    margin: 0 auto;
+    align-items: center;
+    width: 18vw;
+    margin: 1.5vw;
+}
+
+.albums {
+    width: 96vw;
+    margin: 0 auto;
+}
+
+.albumImg {
+    margin: 0 auto;
+    align-items: center;
+    width: 22vw;
+    margin: 2vw;
+    margin-top: 5vh;
+    border: #3F3C3C solid 1px;
+    border-radius: 10px;
+}
+
+.gameart {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.gameImg {
+    margin: 0 auto;
+    width: 34vw;
+    margin: 1vw;
+    margin-top: 2vh;
+}

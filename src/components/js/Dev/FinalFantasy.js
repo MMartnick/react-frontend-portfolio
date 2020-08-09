@@ -5,10 +5,10 @@ import '../../css/Content.css';
 
 function FinalFantasy(props) {
     return (
-        <div className="highlight">
+        <div className="highlightDev">
             <section >
-                <p className="subtitle">Web Based RPG Battle</p>
-                <p className="desc">
+                <p className="subtitleDev">Web Based RPG Battle</p>
+                <p className="descDev">
                     My first game project, this was an attempt to mimic the classic turn based Final Fantasy game series in HTML, CSS, JavaScript, and jQuery and deployed as a browser game.
                     This was put together in two weeks as a class project and while the final result is a bit buggy it proved to be a good experience for learning to build functional UI elements and some game logic in web technologies.
                     This game also made use of geolocation features to populate special enemy characters at certain latitude/longitude coordinates and a weather API to change the playfield based on the locations current temperature.
@@ -20,14 +20,22 @@ function FinalFantasy(props) {
                     </p>
             </section>
 
-            <div>
-                <img src="/images/Dev/ffScene.png" alt="RPG Scene" className="rpgImg" />
+            <div className="softContent">
                 <i class="fab fa-html5 faDev"></i>
                 <i class="fab fa-css3-alt faDev"></i>
                 <i class="fab fa-js-square faDev"></i>
+         
+                <img src="/images/Dev/ffScene.png" alt="RPG Scene" className="rpgImg" />
             </div>
+            <p className="pad">
+                &nbsp;
+                    </p>  
+            <p className="pad">
+                &nbsp;
+                    </p>  
         </div>
     )
 }
 
 export default FinalFantasy;
+

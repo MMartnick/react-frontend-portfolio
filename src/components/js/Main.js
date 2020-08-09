@@ -13,7 +13,7 @@ function Main(props) {
 
 
             <div>
-                <p className="logos">We're still undergoing development so please excuse the mess.</p>
+                <p className="mainMessage">We're still undergoing development so please excuse the mess.</p>
             </div>
         </div>
 
