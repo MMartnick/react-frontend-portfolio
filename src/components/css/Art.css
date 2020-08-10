@@ -1,8 +1,9 @@
-
 .leftSide {
     width: 45vw;
     margin-left: 3vw;
-    margin-bottom: 10vh;
+    margin-bottom: 12vh;
+    margin-top: 4vh;
+    padding-top: 1vh;
 }
 
 .artSub {
@@ -30,7 +31,7 @@
     font-family: 'Raleway', sans-serif;
     border-left: #3F3C3C solid 3px;
     border-bottom: #3F3C3C solid 3px;
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
     padding-left: 3vw;
     padding-top: 1vh;
     margin: 0;
@@ -54,9 +55,11 @@
     width: 40vw;
 }
 
-.pad {
-    padding: 4vh;
-    width: 35vw;
+
+.padArt {
+    padding: 5vh;
+    width: 95vw;
+    height: 7vh;
 }
 
 .break {
@@ -73,558 +76,19 @@
 }
 
 
-@media (min-width:1312.98px) {
-
-
-    .leftSide {
-        width: 45vw;
-        margin-left: 3vw;
-        margin-bottom: 10vh;
-    }
-
-    .artSub {
-        width: 35vw;
-        text-align: left;
-        font-size: 2.3em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-    }
-
-    .artDesc {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artList {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artItem {
-        margin-left: 3vw;
-        margin-top: 2vh;
-        width: 40vw;
-    }
-
-    .pad {
-        padding: 4vh;
-        width: 35vw;
-    }
-
-    .break {
-        padding-top: 1vh;
-    }
-
-    .gallery {
-        float: right;
-        padding-right: 1vh;
-        padding-bottom: 3vh;
-        width: 45vw;
-        color: #ffffff;
-        margin-top: -20vh;
-    }
+@media (max-width: 1312px) {
 }
 
-
-@media (max-width: 1280.98px) { /* Small devices (landscape phones, less than 768px)  1280 hieght*/
-
-
-    .leftSide {
-        width: 45vw;
-        margin-left: 3vw;
-        margin-bottom: 10vh;
-    }
-
-    .artSub {
-        width: 35vw;
-        text-align: left;
-        font-size: 2.3em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-    }
-
-    .artDesc {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artList {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artItem {
-        margin-left: 3vw;
-        margin-top: 2vh;
-        width: 40vw;
-    }
-
-    .pad {
-        padding: 4vh;
-        width: 35vw;
-    }
-
-    .break {
-        padding-top: 1vh;
-    }
-
-    .gallery {
-        float: right;
-        padding-right: 1vh;
-        padding-bottom: 3vh;
-        width: 45vw;
-        color: #ffffff;
-        margin-top: -20vh;
-    }
+@media (max-width: 1280px) {
 }
 
-@media (max-width:1024.98px) { /* big landscape tablets, laptops, and desktops  600 hieght*/
+@media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
     .leftSide {
         width: 45vw;
         margin-left: 3vw;
-        margin-bottom: 10vh;
-    }
-
-    .artSub {
-        width: 35vw;
-        text-align: left;
-        font-size: 2.3em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-    }
-
-    .artDesc {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artList {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artItem {
-        margin-left: 3vw;
-        margin-top: 2vh;
-        width: 40vw;
-    }
-
-    .pad {
-        padding: 4vh;
-        width: 35vw;
-    }
-
-    .break {
-        padding-top: 1vh;
-    }
-
-    .gallery {
-        float: right;
-        padding-right: 1vh;
-        padding-bottom: 3vh;
-        width: 45vw;
-        color: #ffffff;
-        margin-top: -20vh;
-    }
-}
-
-@media (max-width: 991.98px) { /* Medium devices (tablets, less than 992px) */
-
-    .leftSide {
-        width: 45vw;
-        margin-left: 3vw;
-        margin-bottom: 10vh;
-    }
-
-    .artSub {
-        width: 35vw;
-        text-align: left;
-        font-size: 2.3em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-    }
-
-    .artDesc {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artList {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artItem {
-        margin-left: 3vw;
-        margin-top: 2vh;
-        width: 40vw;
-    }
-
-    .pad {
-        padding: 4vh;
-        width: 35vw;
-    }
-
-    .break {
-        padding-top: 1vh;
-    }
-
-    .gallery {
-        float: right;
-        padding-right: 1vh;
-        padding-bottom: 3vh;
-        width: 45vw;
-        color: #ffffff;
-        margin-top: -20vh;
-    }
-}
-
-@media (max-width: 962.98px), screen and (max-height: 601.98px) {
-    .leftSide {
-        width: 45vw;
-        margin-left: 3vw;
-        margin-bottom: 10vh;
-    }
-
-    .artSub {
-        width: 35vw;
-        text-align: left;
-        font-size: 2.3em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-    }
-
-    .artDesc {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artList {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artItem {
-        margin-left: 3vw;
-        margin-top: 2vh;
-        width: 40vw;
-    }
-
-    .pad {
-        padding: 4vh;
-        width: 35vw;
-    }
-
-    .break {
-        padding-top: 1vh;
-    }
-
-    .gallery {
-        float: right;
-        padding-right: 1vh;
-        padding-bottom: 3vh;
-        width: 45vw;
-        color: #ffffff;
-        margin-top: -20vh;
-    }
-}
-
-@media screen and (max-width:800.98px), screen and (max-height: 1280.98px) { /*Desktop ==================*/
-    .leftSide {
-        width: 45vw;
-        margin-left: 3vw;
+        margin-bottom: 12vh;
         margin-top: 4vh;
-        margin-bottom: 10vh;
-    }
-
-    .artSub {
-        width: 35vw;
-        text-align: left;
-        font-size: 2.3em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-    }
-
-    .artDesc {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
         padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artList {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artItem {
-        margin-left: 3vw;
-        margin-top: 2vh;
-        width: 40vw;
-    }
-
-    .pad {
-        padding: 4vh;
-        width: 35vw;
-    }
-
-    .break {
-        padding-top: 1vh;
-    }
-
-    .gallery {
-        float: right;
-        padding-right: 1vh;
-        padding-bottom: 3vh;
-        width: 45vw;
-        color: #ffffff;
-        margin-top: -10vh;
-    }
-}
-
-@media screen and (max-width:780.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
-    .leftSide {
-        width: 45vw;
-        margin-left: 3vw;
-        margin-top: 4vh;
-        margin-bottom: 10vh;
-    }
-
-    .artSub {
-        width: 35vw;
-        text-align: left;
-        font-size: 2.3em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-    }
-
-    .artDesc {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artList {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artItem {
-        margin-left: 3vw;
-        margin-top: 2vh;
-        width: 40vw;
-    }
-
-    .pad {
-        padding: 4vh;
-        width: 35vw;
-    }
-
-    .break {
-        padding-top: 1vh;
-    }
-
-    .gallery {
-        float: right;
-        padding-right: 1vh;
-        padding-bottom: 3vh;
-        width: 45vw;
-        color: #ffffff;
-        margin-top: -10vh;
-    }
-}
-
-@media screen and (max-width:640.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
-    .leftSide {
-        width: 45vw;
-        margin-left: 3vw;
-        margin-top: 4vh;
-        margin-bottom: 10vh;
-    }
-
-    .artSub {
-        width: 35vw;
-        text-align: left;
-        font-size: 2.3em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        padding-left: 2vw;
-    }
-
-    .artDesc {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        border-left: #3F3C3C solid 3px;
-        border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artList {
-        float: left;
-        width: 42vw;
-        text-align: left;
-        font-size: 1.2em;
-        font-family: 'Raleway', sans-serif;
-        padding-bottom: 1vw;
-        padding-left: 3vw;
-        padding-top: 1vh;
-        margin: 0;
-    }
-
-    .artItem {
-        margin-left: 3vw;
-        margin-top: 2vh;
-        width: 40vw;
-    }
-
-    .pad {
-        padding: 4vh;
-        width: 35vw;
-    }
-
-    .break {
-        padding-top: 1vh;
-    }
-
-    .gallery {
-        float: right;
-        padding-right: 1vh;
-        padding-bottom: 3vh;
-        width: 45vw;
-        color: #ffffff;
-        margin-top: -10vh;
-    }
-
-}
-
-@media screen and (max-width:640.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
-    .leftSide {
-        width: 45vw;
-        margin-left: 3vw;
-        margin-top: 4vh;
-        margin-bottom: 10vh;
     }
 
     .artSub {
@@ -636,6 +100,14 @@
         padding-left: 2vw;
     }
 
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+    }
+
     .artDesc {
         float: left;
         width: 42vw;
@@ -644,7 +116,7 @@
         font-family: 'Raleway', sans-serif;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
-        padding-bottom: 1vw;
+        padding-bottom: 2vw;
         padding-left: 3vw;
         padding-top: 1vh;
         margin: 0;
@@ -654,6 +126,7 @@
         float: left;
         width: 42vw;
         text-align: left;
+        font-size: 1.2em;
         font-size: 0.8em;
         font-family: 'Raleway', sans-serif;
         padding-bottom: 1vw;
@@ -668,10 +141,11 @@
         width: 40vw;
     }
 
-    .pad {
-        padding: 4vh;
+
+    .padArt {
+        padding: 5vh;
         width: 95vw;
-        height: 05vh
+        height: 7vh;
     }
 
     .break {
@@ -682,304 +156,836 @@
         float: right;
         padding-right: 1vh;
         padding-bottom: 3vh;
-        height: 15vw;
-        width: 35vw;
+        width: 50vw;
         color: #ffffff;
-        margin-top: -10vh;
+        margin-top: -20vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .leftSide {
+        width: 45vw;
+        margin-left: 3vw;
+        margin-bottom: 12vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
     }
 
+    .artSub {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+    }
+
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+    }
+
+    .artDesc {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artList {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artItem {
+        margin-left: 3vw;
+        margin-top: 2vh;
+        width: 40vw;
+    }
+
+
+    .padArt {
+        padding: 5vh;
+        width: 95vw;
+        height: 7vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+    }
+
+    .gallery {
+        float: right;
+        padding-right: 1vh;
+        padding-bottom: 3vh;
+        width: 50vw;
+        color: #ffffff;
+        margin-top: -20vh;
+    }
+}
+
+@media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
+    .leftSide {
+        width: 45vw;
+        margin-left: 3vw;
+        margin-bottom: 12vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+
+    .artSub {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+    }
+
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+    }
+
+    .artDesc {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artList {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artItem {
+        margin-left: 3vw;
+        margin-top: 2vh;
+        width: 40vw;
+    }
+
+
+    .padArt {
+        padding: 5vh;
+        width: 95vw;
+        height: 15vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+    }
+
+    .gallery {
+        float: right;
+        padding-right: 1vh;
+        padding-bottom: 3vh;
+        width: 50vw;
+        color: #ffffff;
+        margin-top: -20vh;
+    }
+}
+
+@media screen and (max-width:896.98px), screen and (max-height: 414.98px) and (orientation: landscape) {
+    .leftSide {
+        width: 45vw;
+        margin-left: 3vw;
+        margin-bottom: 12vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+
+    .artSub {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+    }
+
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+        padding-top: 10vh;
+    }
+
+    .artDesc {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artList {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artItem {
+        margin-left: 3vw;
+        margin-top: 2vh;
+        width: 40vw;
+    }
+
+
+    .padArt {
+        padding: 5vh;
+        width: 95vw;
+        height: 20vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+    }
+
+    .gallery {
+        float: right;
+        padding-right: 1vh;
+        padding-bottom: 3vh;
+        width: 50vw;
+        color: #ffffff;
+        margin-top: -20vh;
+    }
+}
+
+@media screen and (max-width:812.98px), screen and (max-height: 375.98px) and (orientation: landscape) {
+    .leftSide {
+        width: 45vw;
+        margin-left: 3vw;
+        margin-bottom: 12vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+
+    .artSub {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+    }
+
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+        padding-top: 20vh;
+    }
+
+    .artDesc {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artList {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artItem {
+        margin-left: 3vw;
+        margin-top: 2vh;
+        width: 40vw;
+    }
+
+
+    .padArt {
+        padding: 5vh;
+        width: 95vw;
+        height: 20vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+    }
+
+    .gallery {
+        float: right;
+        padding-right: 1vh;
+        padding-bottom: 3vh;
+        width: 50vw;
+        color: #ffffff;
+        margin-top: -20vh;
+    }
+}
+
+@media screen and (max-width:780.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
+    .leftSide {
+        width: 45vw;
+        margin-left: 3vw;
+        margin-bottom: 12vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+
+    .artSub {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+    }
+
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+        padding-top: 30vh;
+    }
+
+    .artDesc {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artList {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artItem {
+        margin-left: 3vw;
+        margin-top: 2vh;
+        width: 40vw;
+    }
+
+
+    .padArt {
+        padding: 5vh;
+        width: 95vw;
+        height: 20vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+    }
+
+    .gallery {
+        float: right;
+        padding-right: 1vh;
+        padding-bottom: 3vh;
+        width: 50vw;
+        color: #ffffff;
+        margin-top: -20vh;
+    }
 }
 
 /*=======================================================================================================================================================================*/
-    @media (max-width:480.98px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 800 height*/
-        .leftSide {
-            width: 92vw;
-            padding-top: 5vh;
-            margin: 0 auto;
-        }
+@media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
+    .leftSide {
+    width: 45vw;
+    margin-left: 3vw;
+    margin-bottom: 12vh;
+    margin-top: 4vh;
+    padding-top: 1vh;
+}
 
-        .gallery {
-            margin: 0 auto;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
-            width: 92vw;
-            color: #ffffff;
-            margin-left: -2vw;
-        }
+.artSub {
+    width: 35vw;
+    text-align: left;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    border-left: #3F3C3C solid 3px;
+    padding-left: 2vw;
+}
 
-        .leftBottom {
-            width: 92vw;
-            margin-top: 4vh;
-            margin: 0 auto;
-        }
+.subt {
+    width: 35vw;
+    text-align: left;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 4vw;
+    padding-top: 10vh;
+}
 
-        .artSub {
-            width: 90vw;
-            text-align: left;
-            font-size: 1.5em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            padding-left: 2vw;
-            margin-top: 0vh;
-        }
+.artDesc {
+    float: left;
+    width: 42vw;
+    text-align: left;
+    font-size: 0.8em;
+    font-family: 'Raleway', sans-serif;
+    border-left: #3F3C3C solid 3px;
+    border-bottom: #3F3C3C solid 3px;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    margin: 0;
+}
 
-        .artDesc {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            border-bottom: #3F3C3C solid 3px;
-            padding: 2vw;
-        }
+.artList {
+    float: left;
+    width: 42vw;
+    text-align: left;
+    font-size: 1.2em;
+    font-size: 0.8em;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    margin: 0;
+}
 
-        .artList {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            padding-bottom: 2vw;
-        }
+.artItem {
+    margin-left: 3vw;
+    margin-top: 2vh;
+    width: 40vw;
+}
 
-        .artItem {
-            margin-left: 2vw;
-            margin-top: 1.5vh;
-            width: 80vw;
-        }
 
-        .pad {
-            padding: 1vh;
-            width: 95vw;
-            height: 145vh;
-        }
+.padArt {
+    padding: 5vh;
+    width: 95vw;
+    height: 10vh;
+}
 
-        .break {
-            padding-top: 1vh;
-            padding-bottom: 1vh;
-            padding-left: .5vh;
-        }
+.break {
+    padding-top: 1vh;
+}
+
+.gallery {
+    float: right;
+    padding-right: 1vh;
+    padding-bottom: 3vh;
+    width: 50vw;
+    color: #ffffff;
+    margin-top: -20vh;
+}
+}
+
+@media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
+    .leftSide {
+        width: 92vw;
+        padding-top: 5vh;
+        margin: 0 auto;
     }
 
-    @media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
-        .leftSide {
-            width: 92vw;
-            padding-top: 5vh;
-            margin: 0 auto;
-        }
-
-        .gallery {
-            margin: 0 auto;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
-            width: 92vw;
-            color: #ffffff;
-            margin-left: -2vw;
-        }
-
-        .leftBottom {
-            width: 92vw;
-            margin-top: 4vh;
-            margin: 0 auto;
-        }
-
-        .artSub {
-            width: 90vw;
-            text-align: left;
-            font-size: 1.5em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            padding-left: 2vw;
-            margin-top: 0vh;
-        }
-
-        .artDesc {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            border-bottom: #3F3C3C solid 3px;
-            padding: 2vw;
-        }
-
-        .artList {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            padding-bottom: 2vw;
-        }
-
-        .artItem {
-            margin-left: 2vw;
-            margin-top: 1.5vh;
-            width: 80vw;
-        }
-
-        .pad {
-            padding: 1vh;
-            width: 95vw;
-            height: 145vh;
-        }
-
-        .break {
-            padding-top: 1vh;
-            padding-bottom: 1vh;
-            padding-left: .5vh;
-        }
+    .gallery {
+        margin: 0 auto;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        width: 92vw;
+        color: #ffffff;
     }
 
-    @media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
-        .leftSide {
-            width: 92vw;
-            padding-top: 5vh;
-            margin: 0 auto;
-        }
-
-        .gallery {
-            margin: 0 auto;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
-            width: 92vw;
-            color: #ffffff;
-            margin-left: -2vw;
-        }
-
-        .leftBottom {
-            width: 92vw;
-            margin-top: 4vh;
-            margin: 0 auto;
-        }
-
-        .artSub {
-            width: 90vw;
-            text-align: left;
-            font-size: 1.5em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            padding-left: 2vw;
-            margin-top: 0vh;
-        }
-
-        .artDesc {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            border-bottom: #3F3C3C solid 3px;
-            padding: 2vw;
-        }
-
-        .artList {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            padding-bottom: 2vw;
-        }
-
-        .artItem {
-            margin-left: 2vw;
-            margin-top: 1.5vh;
-            width: 80vw;
-        }
-
-        .pad {
-            padding: 1vh;
-            width: 95vw;
-            height: 145vh;
-        }
-
-        .break {
-            padding-top: 1vh;
-            padding-bottom: 1vh;
-            padding-left: .5vh;
-        }
+    .leftBottom {
+        width: 92vw;
+        margin-top: 4vh;
+        margin: 0 auto;
     }
 
-    @media screen and (max-width:360.98px), screen and (max-height: 740.98px) {
-
-        .pad {
-            padding: 1vh;
-            width: 95vw;
-            height: 145vh;
-        }
-
-        .break {
-            padding-top: 1vh;
-            padding-bottom: 1vh;
-            padding-left: .5vh;
-        }
+    .artSub {
+        width: 90vw;
+        text-align: left;
+        font-size: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+        margin-top: 0vh;
     }
 
-    @media screen and (max-width:360.98px), screen and (max-height: 780.98px) and (orientation: portrait) {
-        .leftSide {
-            width: 92vw;
-            padding-top: 5vh;
-            margin: 0 auto;
-        }
-
-        .gallery {
-            margin: 0 auto;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
-            width: 92vw;
-            color: #ffffff;
-        }
-
-        .leftBottom {
-            width: 92vw;
-            margin-top: 4vh;
-            margin: 0 auto;
-        }
-
-        .artSub {
-            width: 90vw;
-            text-align: left;
-            font-size: 1.5em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            padding-left: 2vw;
-            margin-top: 0vh;
-        }
-
-        .artDesc {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            border-bottom: #3F3C3C solid 3px;
-            padding: 2vw;
-        }
-
-        .artList {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            padding-bottom: 2vw;
-        }
-
-        .artItem {
-            margin-left: 2vw;
-            margin-top: 1.5vh;
-            width: 80vw;
-        }
-
-        .pad {
-            padding: 1vh;
-            width: 95vw;
-            height: 145vh;
-        }
-
-        .break {
-            padding-top: 1vh;
-            padding-bottom: 1vh;
-            padding-left: .5vh;
-        }
+    .artDesc {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding: 2vw;
     }
+
+    .artList {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2vw;
+    }
+
+    .artItem {
+        margin-left: 2vw;
+        margin-top: 2vh;
+        width: 80vw;
+    }
+
+    .padArt {
+        padding: 10vh;
+        width: 95vw;
+        height: 80vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+        padding-left: .5vh;
+    }
+}
+
+@media (max-width: 688px) {
+    .leftSide {
+        width: 92vw;
+        padding-top: 5vh;
+        margin: 0 auto;
+    }
+
+    .gallery {
+        margin: 0 auto;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        width: 92vw;
+        color: #ffffff;
+    }
+
+    .leftBottom {
+        width: 92vw;
+        margin-top: 4vh;
+        margin: 0 auto;
+    }
+
+    .artSub {
+        width: 90vw;
+        text-align: left;
+        font-size: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+        margin-top: 0vh;
+    }
+
+    .artDesc {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding: 2vw;
+    }
+
+    .artList {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2vw;
+    }
+
+    .artItem {
+        margin-left: 2vw;
+        margin-top: 2vh;
+        width: 80vw;
+    }
+
+    .padArt {
+        padding: 10vh;
+        width: 95vw;
+        height: 120vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+        padding-left: .5vh;
+    }
+}
+
+@media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
+    .leftSide {
+        width: 92vw;
+        padding-top: 5vh;
+        margin: 0 auto;
+    }
+
+    .gallery {
+        margin: 0 auto;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        width: 92vw;
+        color: #ffffff;
+    }
+
+    .leftBottom {
+        width: 92vw;
+        margin-top: 4vh;
+        margin: 0 auto;
+    }
+
+    .artSub {
+        width: 90vw;
+        text-align: left;
+        font-size: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+        margin-top: 0vh;
+    }
+
+    .artDesc {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding: 2vw;
+    }
+
+    .artList {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2vw;
+    }
+
+    .artItem {
+        margin-left: 2vw;
+        margin-top: 2vh;
+        width: 80vw;
+    }
+
+    .padArt {
+        padding: 10vh;
+        width: 95vw;
+        height: 120vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+        padding-left: .5vh;
+    }
+}
+
+@media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
+    .leftSide {
+        width: 92vw;
+        padding-top: 5vh;
+        margin: 0 auto;
+    }
+
+    .gallery {
+        margin: 0 auto;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        width: 92vw;
+        color: #ffffff;
+    }
+
+    .leftBottom {
+        width: 92vw;
+        margin-top: 4vh;
+        margin: 0 auto;
+    }
+
+    .artSub {
+        width: 90vw;
+        text-align: left;
+        font-size: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+        margin-top: 0vh;
+    }
+
+    .artDesc {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding: 2vw;
+    }
+
+    .artList {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2vw;
+    }
+
+    .artItem {
+        margin-left: 2vw;
+        margin-top: 2vh;
+        width: 80vw;
+    }
+
+    .padArt {
+        padding: 10vh;
+        width: 95vw;
+        height: 280vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+        padding-left: .5vh;
+    }
+}
+
+@media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
+    .leftSide {
+        width: 92vw;
+        padding-top: 5vh;
+        margin: 0 auto;
+    }
+
+    .gallery {
+        margin: 0 auto;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        width: 92vw;
+        color: #ffffff;
+    }
+
+    .leftBottom {
+        width: 92vw;
+        margin-top: 4vh;
+        margin: 0 auto;
+    }
+
+    .artSub {
+        width: 90vw;
+        text-align: left;
+        font-size: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+        margin-top: 0vh;
+    }
+
+    .artDesc {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding: 2vw;
+    }
+
+    .artList {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2vw;
+    }
+
+    .artItem {
+        margin-left: 2vw;
+        margin-top: 2vh;
+        width: 80vw;
+    }
+
+    .padArt {
+        padding: 10vh;
+        width: 95vw;
+        height: 285vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+        padding-left: .5vh;
+    }
+}
 
 @media screen and (max-width:360.98px), screen and (max-height: 640.98px) and (orientation: portrait) {
     .leftSide {
@@ -1032,88 +1038,88 @@
 
     .artItem {
         margin-left: 2vw;
-        margin-top: 1.5vh;
+        margin-top: 2vh;
         width: 80vw;
     }
 
-    .pad {
-        padding: 1vh;
+    .padArt {
+        padding: 10vh;
         width: 95vw;
-        height: 145vh;
+        height: 355vh;
     }
 
     .break {
         padding-top: 1vh;
-        padding-bottom: 1vh;
+        padding-bottom: 3vh;
         padding-left: .5vh;
     }
 }
-    /*=======================================================================================================================================================================*/
+/*=======================================================================================================================================================================*/
 
-    @media (max-width:319.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
-        .leftSide {
-            width: 92vw;
-            padding-top: 5vh;
-            margin: 0 auto;
-        }
-
-        .gallery {
-            margin: 0 auto;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
-            width: 92vw;
-            color: #ffffff;
-        }
-
-        .leftBottom {
-            width: 92vw;
-            margin-top: 4vh;
-            margin: 0 auto;
-        }
-
-        .artSub {
-            width: 90vw;
-            text-align: left;
-            font-size: 1.5em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            padding-left: 2vw;
-            margin-top: 0vh;
-        }
-
-        .artDesc {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            border-left: #3F3C3C solid 3px;
-            border-bottom: #3F3C3C solid 3px;
-            padding: 2vw;
-        }
-
-        .artList {
-            width: 90vw;
-            text-align: left;
-            font-size: .9em;
-            font-family: 'Raleway', sans-serif;
-            padding-bottom: 2vw;
-        }
-
-        .artItem {
-            margin-left: 2vw;
-            margin-top: 2vh;
-            width: 80vw;
-        }
-
-        .pad {
-            padding: 1vh;
-            width: 95vw;
-            height: 145vh;
-        }
-
-        .break {
-            padding-top: 1vh;
-            padding-bottom: 3vh;
-            padding-left: .5vh;
-        }
+@media (max-width:320.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
+    .leftSide {
+        width: 92vw;
+        padding-top: 5vh;
+        margin: 0 auto;
     }
+
+    .gallery {
+        margin: 0 auto;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        width: 92vw;
+        color: #ffffff;
+    }
+
+    .leftBottom {
+        width: 92vw;
+        margin-top: 4vh;
+        margin: 0 auto;
+    }
+
+    .artSub {
+        width: 90vw;
+        text-align: left;
+        font-size: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+        margin-top: 0vh;
+    }
+
+    .artDesc {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding: 2vw;
+    }
+
+    .artList {
+        width: 90vw;
+        text-align: left;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2vw;
+    }
+
+    .artItem {
+        margin-left: 2vw;
+        margin-top: 2vh;
+        width: 80vw;
+    }
+
+    .padArt {
+        padding: 10vh;
+        width: 95vw;
+        height: 640vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+        padding-left: .5vh;
+    }
+}

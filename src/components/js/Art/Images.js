@@ -56,9 +56,12 @@ function Images(props) {
                 </ModalGateway>
             </div>
 
-            <p className="pad"> &nbsp; </p>
+            <p className="padArt">
+                &nbsp;
+                    </p>  
 
             <section className="leftBottom">
+
                 <p className="subt">Experience and Exhibitions</p>
                 <ul className="artList">
                     <li className="artItem"><b>2018:</b> Conception Art Collective - Exhibition</li>

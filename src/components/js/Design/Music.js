@@ -21,7 +21,7 @@ function Music(props) {
                 <img src="/images/Design/bloom.jpg" alt="SazFCR - Bloom" className="albumImg" />
             </div>
 
-            <p className="pad">
+            <p className="padDes">
                 &nbsp;
                     </p>  
         </div>

@@ -22,7 +22,7 @@ function Logos(props) {
                 <img src="/images/Design/tcp.png" alt="Corporate News Letter Logo" className="logoImg" />
             </div>
 
-            <p className="pad">
+            <p className="padDes">
                 &nbsp;
                     </p>  
         </div>

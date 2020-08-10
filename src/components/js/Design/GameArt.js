@@ -23,7 +23,7 @@ function GameArt(props) {
                 <img src="/images/Design/whitetxt.jpg" alt="Character texture from unfinished game" className="gameImg" />
             </div>
 
-            <p className="pad">
+            <p className="padDes">
                 &nbsp;
                     </p>  
             </div>

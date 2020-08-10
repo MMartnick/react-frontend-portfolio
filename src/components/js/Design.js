@@ -5,7 +5,7 @@ import Logos from './Design/Logos.js';
 import Music from './Design/Music.js';
 import GameArt from './Design/GameArt.js';
 
-import '../css/Main.css';
+import '../css/Des.css';
 
 function Design(props) {
     return (

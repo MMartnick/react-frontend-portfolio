@@ -2,7 +2,6 @@
 import React from 'react';
 
 import '../../css/SoftwareComponent.css';
-import '../../css/Content.css';
 
 function OutRun(props) {
     return (

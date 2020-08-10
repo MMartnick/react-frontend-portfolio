@@ -48,28 +48,474 @@
     padding-bottom: 10vh;
 }
 
+.padDev {
+    padding: 1vh;
+    width: 95vw;
+    height: 10vh;
+}
+
 @media (max-width: 1312px) {
+        .project {
+        margin: 0 auto;
+        margin-top: 4vh;
+        padding-top: 1vh;
+        width: 90vw;
+        z-index: 2;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subDev {
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .de {
+        width: 75vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .websites {
+        display: inline-flex;
+        width: 80vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .webImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 20vw;
+        margin: 1vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 5px;
+    }
+
+    .padd {
+        padding-bottom: 10vh;
+    }
+
+    .padDev {
+        padding: 1vh;
+        width: 95vw;
+        height: 10vh;
+    }
 }
 
 @media (max-width: 1280px) {
+    .project {
+        margin: 0 auto;
+        margin-top: 4vh;
+        padding-top: 1vh;
+        width: 90vw;
+        z-index: 2;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subDev {
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .de {
+        width: 75vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .websites {
+        display: inline-flex;
+        width: 80vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .webImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 20vw;
+        margin: 1vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 5px;
+    }
+
+    .padd {
+        padding-bottom: 10vh;
+    }
+
+    .padDev {
+        padding: 1vh;
+        width: 95vw;
+        height: 10vh;
+    }
 }
 
 @media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
+    .project {
+        margin: 0 auto;
+        margin-top: 4vh;
+        padding-top: 1vh;
+        width: 90vw;
+        z-index: 2;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subDev {
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .de {
+        width: 75vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .websites {
+        display: inline-flex;
+        width: 80vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .webImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 20vw;
+        margin: 1vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 5px;
+    }
+
+    .padd {
+        padding-bottom: 10vh;
+    }
+
+    .padDev {
+        padding: 1vh;
+        width: 95vw;
+        height: 10vh;
+    }
 }
 
 @media (max-width: 992px) {
+    .project {
+        margin: 0 auto;
+        margin-top: 4vh;
+        padding-top: 1vh;
+        width: 90vw;
+        z-index: 2;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subDev {
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .de {
+        width: 75vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .websites {
+        display: inline-flex;
+        width: 80vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .webImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 20vw;
+        margin: 1vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 5px;
+    }
+
+    .padd {
+        padding-bottom: 10vh;
+    }
+
+    .padDev {
+        padding: 1vh;
+        width: 95vw;
+        height: 10vh;
+    }
 }
 
 @media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
+    .project {
+        margin: 0 auto;
+        margin-top: 4vh;
+        padding-top: 1vh;
+        width: 90vw;
+        z-index: 2;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subDev {
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .de {
+        width: 75vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .websites {
+        display: inline-flex;
+        width: 80vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .webImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 20vw;
+        margin: 1vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 5px;
+    }
+
+    .padd {
+        padding-bottom: 10vh;
+    }
+
+    .padDev {
+        padding: 1vh;
+        width: 95vw;
+        height: 10vh;
+    }
 }
 
 @media screen and (max-width:896.98px), screen and (max-height: 414.98px) and (orientation: landscape) {
+    .project {
+        margin: 0 auto;
+        margin-top: 4vh;
+        padding-top: 1vh;
+        width: 90vw;
+        z-index: 2;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subDev {
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .de {
+        width: 75vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .websites {
+        display: inline-flex;
+        width: 80vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .webImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 20vw;
+        margin: 1vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 5px;
+    }
+
+    .padd {
+        padding-bottom: 10vh;
+    }
+
+    .padDev {
+        padding: 1vh;
+        width: 95vw;
+        height: 12vh;
+    }
 }
 
 @media screen and (max-width:812.98px), screen and (max-height: 375.98px) and (orientation: landscape) {
+    .project {
+        margin: 0 auto;
+        margin-top: 4vh;
+        padding-top: 1vh;
+        width: 90vw;
+        z-index: 2;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subDev {
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .de {
+        width: 75vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .websites {
+        display: inline-flex;
+        width: 80vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .webImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 20vw;
+        margin: 1vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 5px;
+    }
+
+    .padd {
+        padding-bottom: 10vh;
+    }
+
+    .padDev {
+        padding: 1vh;
+        width: 95vw;
+        height: 12vh;
+    }
 }
 
 @media screen and (max-width:780.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
+    .project {
+        margin: 0 auto;
+        margin-top: 4vh;
+        padding-top: 1vh;
+        width: 90vw;
+        z-index: 2;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+    }
+
+    .subDev {
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 1vw;
+        padding-top: 1vh;
+    }
+
+    .de {
+        width: 75vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+    }
+
+    .websites {
+        display: inline-flex;
+        width: 80vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .webImg {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 20vw;
+        margin: 1vw;
+        border: #3F3C3C solid 1px;
+        border-radius: 5px;
+    }
+
+    .padd {
+        padding-bottom: 10vh;
+    }
+
+    .padDev {
+        padding: 1vh;
+        width: 95vw;
+        height: 10vh;
+    }
 }
 
 /*=======================================================================================================================================================================*/
@@ -129,7 +575,7 @@
     .padDev {
         padding: 1vh;
         width: 95vw;
-        height: 6vh;
+        height: 10vh;
     }
 }
 
@@ -254,7 +700,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -428,7 +874,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;

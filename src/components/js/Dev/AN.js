@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import '../../css/Content.css';
+import '../../css/Dev.css';
 
 function AN(props) {
     return (

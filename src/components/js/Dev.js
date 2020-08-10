@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 import '../css/Dev.css';
-import '../css/Content.css';
+
 
 import Outrun from './Dev/OutRun';
 import AN from './Dev/AN';
