@@ -28,7 +28,7 @@
 
 .logos {
     margin: 0 auto;
-    width: 96vw;
+    width: 90vw;
 }
 
 .logoImg {
@@ -39,7 +39,7 @@
 }
 
 .albums {
-    width: 96vw;
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -107,7 +107,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -165,7 +165,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -176,7 +176,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -234,7 +234,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -245,7 +245,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -303,7 +303,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -314,7 +314,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -339,6 +339,7 @@
         margin: 1vw;
         margin-top: 2vh;
     }
+
 }
 
 @media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
@@ -372,7 +373,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -383,7 +384,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -410,8 +411,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -447,7 +448,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -458,7 +459,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -485,14 +486,14 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
 
 @media screen and (max-width:812.98px), screen and (max-height: 375.98px) and (orientation: landscape) {
-    4 .highlightDes {
+     .highlightDes {
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
@@ -522,7 +523,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -533,7 +534,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -560,8 +561,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -597,7 +598,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -608,7 +609,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -623,7 +624,7 @@
     }
 
     .gameart {
-        width: 80vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -635,8 +636,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -675,7 +676,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -686,7 +687,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -713,8 +714,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 3vh;
     }
 }
@@ -750,7 +751,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -761,7 +762,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -788,8 +789,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 4vh;
     }
 }
@@ -825,7 +826,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -836,7 +837,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -863,8 +864,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 3vh;
     }
 }
@@ -900,7 +901,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -911,7 +912,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -938,8 +939,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 3vh;
     }
 }
@@ -975,7 +976,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -986,7 +987,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -1013,8 +1014,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 4vh;
     }
 }
@@ -1050,7 +1051,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -1061,7 +1062,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -1088,8 +1089,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 4vh;
     }
 }
@@ -1125,7 +1126,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -1136,7 +1137,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -1151,7 +1152,7 @@
     }
 
     .gameart {
-        width: 95vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -1163,8 +1164,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 4vh;
     }
 }
@@ -1201,7 +1202,7 @@
 
     .logos {
         margin: 0 auto;
-        width: 96vw;
+        width: 90vw;
     }
 
     .logoImg {
@@ -1212,7 +1213,7 @@
     }
 
     .albums {
-        width: 96vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -1227,7 +1228,7 @@
     }
 
     .gameart {
-        width: 95vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -1239,8 +1240,8 @@
     }
 
     .padDes {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 4vh;
     }
 }

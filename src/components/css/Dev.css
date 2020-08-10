@@ -2,7 +2,7 @@
     margin: 0 auto;
     margin-top: 4vh;
     padding-top: 1vh;
-    width: 85%;
+    width: 80vw;
     z-index: 2;
     border-left: #3F3C3C solid 3px;
     border-bottom: #3F3C3C solid 3px;
@@ -49,17 +49,17 @@
 }
 
 .padDev {
-    padding: 1vh;
-    width: 95vw;
+    padding: 5vh;
+    width: 70vw;
     height: 10vh;
 }
 
 @media (max-width: 1312px) {
-        .project {
+    .project {
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -106,8 +106,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -117,7 +117,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -164,8 +164,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -175,7 +175,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -222,8 +222,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -233,7 +233,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -280,8 +280,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -291,7 +291,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -338,8 +338,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -349,7 +349,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -396,8 +396,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 12vh;
     }
 }
@@ -407,7 +407,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -454,8 +454,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 12vh;
     }
 }
@@ -465,7 +465,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 90vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -512,8 +512,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -526,7 +526,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85%;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -573,8 +573,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 10vh;
     }
 }
@@ -584,7 +584,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85%;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -631,8 +631,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 6vh;
     }
 }
@@ -642,7 +642,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85%;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -689,8 +689,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 6vh;
     }
 }
@@ -700,7 +700,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -747,8 +747,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 6vh;
     }
 }
@@ -758,7 +758,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85%;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -805,8 +805,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 4vh;
     }
 }
@@ -816,7 +816,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85%;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -863,8 +863,8 @@
     }
 
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 4vh;
     }
 }
@@ -874,7 +874,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85vw;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -920,8 +920,8 @@
         padding-bottom: 10vh;
     }
     .padDev {
-        padding: 1vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 70vw;
         height: 4vh;
     }
 }
@@ -932,7 +932,7 @@
         margin: 0 auto;
         margin-top: 4vh;
         padding-top: 1vh;
-        width: 85%;
+        width: 80vw;
         z-index: 2;
         border-left: #3F3C3C solid 3px;
         border-bottom: #3F3C3C solid 3px;
@@ -940,7 +940,7 @@
 
     .subDev {
         text-align: left;
-        font-size: 1.3em;
+        font-size: 1em;
         font-family: 'Raleway', sans-serif;
         padding-left: 1vw;
         padding-top: 1vh;
@@ -949,7 +949,7 @@
     .de {
         width: 75vw;
         text-align: left;
-        font-size: 0.8em;
+        font-size: 0.7em;
         font-family: 'Raleway', sans-serif;
         padding-bottom: 1vw;
         padding-left: 2vw;
@@ -959,8 +959,8 @@
     .websites {
         display: inline-flex;
         width: 80vw;
-        padding-left: 6vw;
-        padding-right: 6vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
         margin: 0 auto;
     }
 
@@ -975,6 +975,12 @@
     }
 
     .padd {
-        padding-bottom: 10vh;
+        padding-bottom: 1vh;
+    }
+
+    .padDev {
+        padding: 5vh;
+        width: 70vw;
+        height: 0vh;
     }
 }

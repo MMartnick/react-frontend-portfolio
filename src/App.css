@@ -83,9 +83,9 @@ nav {
     }
 
     .navlink {
-        padding-right: 4vw;
-        margin-left: .3vw;
-        margin-right: .3vw;
+        padding-right: 1vw;
+        margin-left: .1vw;
+        margin-right: 1.5vw;
     }
 
         .navlink:link {
@@ -364,7 +364,7 @@ nav {
     .App-header {
         padding-bottom: 2vh;
         font-family: 'Raleway', sans-serif;
-        font-size: 0.5em;
+        font-size: 0.7em;
         width: 100vw;
         position: fixed;
         height: 8vh;
@@ -382,38 +382,16 @@ nav {
     }
 }
 
-@media screen and (max-width:640.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
-
-    .App-header {
-        padding-bottom: 2vh;
-        font-family: 'Raleway', sans-serif;
-        font-size: 0.75em;
-        width: 100vw;
-        position: fixed;
-        height: 8vh;
-        color: #ffffff;
-        background-color: #060e0fce;
-    }
-
-    .faHead {
-        font-size: 1.8em;
-        color: #ffffff;
-        text-decoration: none;
-        margin-left: 0vw;
-        margin-right: 2vw;
-        margin-top: 1.2vh;
-    }
-}
-
 /*=======================================================================================================================================================================*/
-@media (max-width:514.98px) {
+@media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
+
     .App-header {
         padding-bottom: 2vh;
         font-family: 'Raleway', sans-serif;
-        font-size: 0.7em;
+        font-size: 0.9em;
         width: 100vw;
         position: fixed;
-        height: 5.0vh;
+        height: 4.5vh;
         color: #ffffff;
         background-color: #060e0fce;
     }
@@ -433,8 +411,51 @@ nav {
     }
 
     .navlink {
-        margin-left: 2.2vw;
-        margin-right: 2.2vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .faHead {
+        font-size: 1.5em;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 1vh;
+    }
+}
+
+
+@media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
+
+    .App-header {
+        padding-bottom: 2vh;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.85em;
+        width: 100vw;
+        position: fixed;
+        height: 4.0vh;
+        color: #ffffff;
+        background-color: #060e0fce;
+    }
+
+    nav {
+        margin-top: 1vh;
+        display: inline;
+        float: right;
+        position: static;
+        text-align: center;
+    }
+
+    .headIcon {
+        float: right;
+        padding: 4vw;
+        margin-top: 2vh;
+    }
+
+    .navlink {
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 
     .faHead {
@@ -447,14 +468,15 @@ nav {
     }
 }
 
-@media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
+@media (max-width: 688px) {
+
     .App-header {
         padding-bottom: 2vh;
         font-family: 'Raleway', sans-serif;
-        font-size: .6em;
+        font-size: 0.9em;
         width: 100vw;
         position: fixed;
-        height: 5.0vh;
+        height: 4.0vh;
         color: #ffffff;
         background-color: #060e0fce;
     }
@@ -474,92 +496,8 @@ nav {
     }
 
     .navlink {
-        margin-left: 2vw;
-        margin-right: 2vw;
-    }
-
-    .faHead {
-        font-size: 2em;
-        color: #ffffff;
-        text-decoration: none;
         margin-left: 4vw;
         margin-right: 4vw;
-        margin-top: 1.5vh;
-    }
-}
-
-@media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
-
-    .App-header {
-        padding-bottom: 2vh;
-        font-family: 'Raleway', sans-serif;
-        font-size: .61em;
-        width: 100vw;
-        position: fixed;
-        height: 5.5vh;
-        color: #ffffff;
-        background-color: #060e0fce;
-    }
-
-    nav {
-        margin-top: 1vh;
-        display: inline;
-        float: right;
-        position: static;
-        text-align: center;
-    }
-
-    .headIcon {
-        float: right;
-        padding: 4vw;
-        margin-top: 2vh;
-    }
-
-    .navlink {
-        margin-left: 1vw;
-        margin-right: 1vw;
-    }
-
-    .faHead {
-        font-size: 2em;
-        color: #ffffff;
-        text-decoration: none;
-        margin-left: 4vw;
-        margin-right: 4vw;
-        margin-top: 2.5vh;
-    }
-}
-
-@media screen and (max-width:375.98px), screen and (max-height: 667.98px) and (orientation: portrait) {
-
-    .App-header {
-        padding-bottom: 2vh;
-        font-family: 'Raleway', sans-serif;
-        font-size: .61em;
-        width: 100vw;
-        position: fixed;
-        height: 5.5vh;
-        color: #ffffff;
-        background-color: #060e0fce;
-    }
-
-    nav {
-        margin-top: 1vh;
-        display: inline;
-        float: right;
-        position: static;
-        text-align: center;
-    }
-
-    .headIcon {
-        float: right;
-        padding: 4vw;
-        margin-top: 2vh;
-    }
-
-    .navlink {
-        margin-left: 1vw;
-        margin-right: 1vw;
     }
 
     .faHead {
@@ -572,129 +510,212 @@ nav {
     }
 }
 
-@media screen and (max-width:360.98px), screen and (max-height: 740.98px) and (orientation: portrait) {
+    @media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
+        .App-header {
+            padding-bottom: 2vh;
+            font-family: 'Raleway', sans-serif;
+            font-size: 0.9em;
+            width: 100vw;
+            position: fixed;
+            height: 5.0vh;
+            color: #ffffff;
+            background-color: #060e0fce;
+        }
 
-    .App-header {
-        padding-bottom: 2vh;
-        font-family: 'Raleway', sans-serif;
-        font-size: 0.65em;
-        width: 100vw;
-        position: fixed;
-        height: 6vh;
-        color: #ffffff;
-        background-color: #060e0fce;
+        nav {
+            margin-top: 1vh;
+            display: inline;
+            float: right;
+            position: static;
+            text-align: center;
+        }
+
+        .headIcon {
+            float: right;
+            padding: 4vw;
+            margin-top: 2vh;
+        }
+
+        .navlink {
+            margin-left: 2.2vw;
+            margin-right: 2.2vw;
+        }
+
+        .faHead {
+            font-size: 2em;
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 4vw;
+            margin-right: 4vw;
+            margin-top: 1vh;
+        }
     }
 
-    nav {
-        margin-top: 1vh;
-        display: inline;
-        float: right;
-        position: static;
-        text-align: center;
+    @media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
+        .App-header {
+            padding-bottom: 2vh;
+            font-family: 'Raleway', sans-serif;
+            font-size: .7em;
+            width: 100vw;
+            position: fixed;
+            height: 5.0vh;
+            color: #ffffff;
+            background-color: #060e0fce;
+        }
+
+        nav {
+            margin-top: 1vh;
+            display: inline;
+            float: right;
+            position: static;
+            text-align: center;
+        }
+
+        .headIcon {
+            float: right;
+            padding: 4vw;
+            margin-top: 2vh;
+        }
+
+        .navlink {
+            margin-left: 1vw;
+            margin-right: 1vw;
+        }
+
+        .faHead {
+            font-size: 2em;
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 4vw;
+            margin-right: 4vw;
+            margin-top: 1vh;
+        }
     }
 
-    .headIcon {
-        float: right;
-        padding: 4vw;
-        margin-top: 2vh;
+    @media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
+
+        .App-header {
+            padding-bottom: 2vh;
+            font-family: 'Raleway', sans-serif;
+            font-size: .65em;
+            width: 100vw;
+            position: fixed;
+            height: 5.5vh;
+            color: #ffffff;
+            background-color: #060e0fce;
+        }
+
+        nav {
+            margin-top: 1vh;
+            display: inline;
+            float: right;
+            position: static;
+            text-align: center;
+        }
+
+        .headIcon {
+            float: right;
+            padding: 4vw;
+            margin-top: 2vh;
+        }
+
+        .navlink {
+            margin-left: 1vw;
+            margin-right: 1vw;
+        }
+
+        .faHead {
+            font-size: 2em;
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 4vw;
+            margin-right: 4vw;
+            margin-top: 1.5vh;
+        }
     }
 
-    .navlink {
-        margin-left: 0.6vw;
-        margin-right: 0.6vw
+
+    @media screen and (max-width:360.98px), screen and (max-height: 780.98px) and (orientation: portrait) {
+
+        .App-header {
+            padding-bottom: 2vh;
+            font-family: 'Raleway', sans-serif;
+            font-size: 0.6em;
+            width: 100vw;
+            position: fixed;
+            height: 5vh;
+            color: #ffffff;
+            background-color: #060e0fce;
+        }
+
+        nav {
+            margin-top: 1vh;
+            display: inline;
+            float: right;
+            position: static;
+            text-align: center;
+        }
+
+        .headIcon {
+            float: right;
+            padding: 4vw;
+            margin-top: 2vh;
+        }
+
+        .navlink {
+            margin-left: 0.6vw;
+            margin-right: 0.6vw
+        }
+
+        .faHead {
+            font-size: 2.1em;
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 4vw;
+            margin-right: 4vw;
+            margin-top: 1.5vh;
+        }
     }
+    /*=======================================================================================================================================================================*/
 
-    .faHead {
-        font-size: 2.1em;
-        color: #ffffff;
-        text-decoration: none;
-        margin-left: 4vw;
-        margin-right: 4vw;
-        margin-top: 1.5vh;
+    @media (max-width:320.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
+
+        .App-header {
+            padding-bottom: 2vh;
+            font-family: 'Raleway', sans-serif;
+            font-size: 0.6em;
+            width: 100vw;
+            position: fixed;
+            height: 8vh;
+            color: #ffffff;
+            background-color: #060e0fce;
+        }
+
+        nav {
+            margin-top: 1vh;
+            display: inline;
+            float: right;
+            position: static;
+            text-align: center;
+        }
+
+        .headIcon {
+            float: right;
+            padding: 4vw;
+            margin-top: 2vh;
+        }
+
+        .navlink {
+            margin-left: .3vw;
+            margin-right: .3vw;
+        }
+
+        .faHead {
+            font-size: 1.8em;
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 4vw;
+            margin-right: 4vw;
+            margin-top: 2vh;
+        }
     }
-}
-
-@media screen and (max-width:360.98px), screen and (max-height: 640.98px) and (orientation: portrait) {
-
-    .App-header {
-        padding-bottom: 2vh;
-        font-family: 'Raleway', sans-serif;
-        font-size: 0.65em;
-        width: 100vw;
-        position: fixed;
-        height: 7.5vh;
-        color: #ffffff;
-        background-color: #060e0fce;
-    }
-
-    nav {
-        margin-top: 1vh;
-        display: inline;
-        float: right;
-        position: static;
-        text-align: center;
-    }
-
-    .headIcon {
-        float: right;
-        padding: 4vw;
-        margin-top: 2vh;
-    }
-
-    .navlink {
-        margin-left: 0.6vw;
-        margin-right: 0.6vw
-    }
-
-    .faHead {
-        font-size: 2.1em;
-        color: #ffffff;
-        text-decoration: none;
-        margin-left: 4vw;
-        margin-right: 4vw;
-        margin-top: 2vh;
-    }
-}
-/*=======================================================================================================================================================================*/
-
-@media (max-width:319.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
-
-    .App-header {
-        padding-bottom: 2vh;
-        font-family: 'Raleway', sans-serif;
-        font-size: 0.45em;
-        width: 100vw;
-        position: fixed;
-        height: 8vh;
-        color: #ffffff;
-        background-color: #060e0fce;
-    }
-
-    nav {
-        margin-top: 1vh;
-        display: inline;
-        float: right;
-        position: static;
-        text-align: center;
-    }
-
-    .headIcon {
-        float: right;
-        padding: 4vw;
-        margin-top: 2vh;
-    }
-
-    .navlink {
-        margin-left: .3vw;
-        margin-right: .3vw;
-    }
-
-    .faHead {
-        font-size: 1.8em;
-        color: #ffffff;
-        text-decoration: none;
-        margin-left: 4vw;
-        margin-right: 4vw;
-        margin-top: 2vh;
-    }
-}

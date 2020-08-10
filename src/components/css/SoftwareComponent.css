@@ -3,7 +3,7 @@
     padding-top: 6vh;
     padding-bottom: 0vh;
     padding-left: 20vh;
-    width: 85%;
+    width: 85vw;
     z-index: 2;
     border-bottom: #3F3C3C solid 3px;
 }
@@ -133,7 +133,7 @@
         padding-top: 6vh;
         padding-bottom: 0vh;
         padding-left: 20vh;
-        width: 90vw;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -197,8 +197,8 @@
         margin: 0 auto;
         padding-top: 6vh;
         padding-bottom: 0vh;
-        padding-left: 20vh;
-        width: 90vw;
+       padding-left: 5vh;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -262,8 +262,8 @@
         margin: 0 auto;
         padding-top: 6vh;
         padding-bottom: 0vh;
-        padding-left: 20vh;
-        width: 90vw;
+        padding-left: 5vh;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -327,8 +327,8 @@
         margin: 0 auto;
         padding-top: 6vh;
         padding-bottom: 0vh;
-        padding-left: 20vh;
-        width: 90vw;
+        padding-left: 5vh;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -392,8 +392,8 @@
         margin: 0 auto;
         padding-top: 6vh;
         padding-bottom: 0vh;
-        padding-left: 20vh;
-        width: 90vw;
+        padding-left: 5vh;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -457,8 +457,8 @@
         margin: 0 auto;
         padding-top: 6vh;
         padding-bottom: 0vh;
-        padding-left: 20vh;
-        width: 90vw;
+        padding-left: 5vh;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -522,8 +522,8 @@
         margin: 0 auto;
         padding-top: 6vh;
         padding-bottom: 0vh;
-        padding-left: 20vh;
-        width: 90vw;
+        padding-left: 5vh;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -592,7 +592,7 @@
         padding-top: 6vh;
         padding-bottom: 0vh;
         padding-left: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -655,7 +655,7 @@
         padding-top: 6vh;
         padding-bottom: 0vh;
         padding-left: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -718,7 +718,7 @@
         padding-top: 6vh;
         padding-bottom: 0vh;
         padding-left: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -781,7 +781,7 @@
         padding-top: 6vh;
         padding-bottom: 0vh;
         padding-left: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -844,7 +844,7 @@
         padding-top: 6vh;
         padding-bottom: 0vh;
         padding-left: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -907,7 +907,7 @@
         padding-top: 6vh;
         padding-bottom: 0vh;
         padding-left: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
@@ -970,13 +970,12 @@
         padding-top: 6vh;
         padding-bottom: 0vh;
         padding-left: 1vh;
-        width: 85%;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
 
     .subtitleDev {
-        width: 60vw;
         text-align: left;
         font-size: 1.3em;
         font-family: 'Raleway', sans-serif;
@@ -1029,59 +1028,54 @@
 /*=======================================================================================================================================================================*/
 
 @media (max-width:320.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
-
     .highlightDev {
         margin: 0 auto;
         padding-top: 6vh;
         padding-bottom: 0vh;
-        padding-left: 20vh;
-        width: 85%;
+        padding-left: 1vh;
+        width: 85vw;
         z-index: 2;
         border-bottom: #3F3C3C solid 3px;
     }
 
     .subtitleDev {
-        width: 60vw;
         text-align: left;
-        font-size: 1.3em;
+        font-size: 1em;
         font-family: 'Raleway', sans-serif;
-        padding-left: 1vw;
+        padding-left: 0vw;
         padding-top: 1vh;
     }
 
     .descDev {
-        width: 65vw;
+        width: 85vw;
         text-align: left;
-        font-size: 0.8em;
+        font-size: 0.7em;
         font-family: 'Raleway', sans-serif;
         padding-bottom: 1vw;
-        padding-left: 2vw;
+        padding-left: 0vw;
         padding-top: 1vh;
     }
 
     .softContent {
-        display: inline;
-        width: 75vw;
+        margin: 0 auto;
+        width: 85vw;
     }
 
 
     .gameVid {
-        margin: 1vw;
-        width: 32vw;
+        margin: 0 auto;
+        width: 85vw;
+        height: 25vh;
     }
 
     .devImg {
-        float: left;
-        margin: 1vw;
-        margin-left: 5vw;
-        width: 20vw;
+        margin: 0 auto;
+        width: 85vw;
         border-radius: 10px;
     }
 
     .rpgImg {
-        float: right;
-        margin-right: 25vw;
-        width: 40vw;
+        width: 60vw;
         border: #3F3C3C solid 1px;
         border-radius: 10px;
     }
@@ -1091,6 +1085,6 @@
         color: #3F3C3C;
         padding: .5vw;
         text-decoration: none;
-        margin-left: 2vw;
+        margin-left: 0vw;
     }
 }

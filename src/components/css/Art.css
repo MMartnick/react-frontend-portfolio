@@ -58,7 +58,7 @@
 
 .padArt {
     padding: 5vh;
-    width: 95vw;
+    width: 80vw;
     height: 7vh;
 }
 
@@ -77,9 +77,163 @@
 
 
 @media (max-width: 1312px) {
+    .leftSide {
+        width: 45vw;
+        margin-left: 3vw;
+        margin-bottom: 12vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+
+    .artSub {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.9em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+    }
+
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.9em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+    }
+
+    .artDesc {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artList {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artItem {
+        margin-left: 3vw;
+        margin-top: 2vh;
+        width: 40vw;
+    }
+
+
+    .padArt {
+        padding: 5vh;
+        width: 80vw;
+        height: 7vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+    }
+
+    .gallery {
+        float: right;
+        padding-right: 1vh;
+        padding-bottom: 3vh;
+        width: 50vw;
+        color: #ffffff;
+        margin-top: -25vh;
+    }
 }
 
 @media (max-width: 1280px) {
+    .leftSide {
+        width: 45vw;
+        margin-left: 3vw;
+        margin-bottom: 12vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
+
+    .artSub {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.9em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+    }
+
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.9em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+    }
+
+    .artDesc {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artList {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
+
+    .artItem {
+        margin-left: 3vw;
+        margin-top: 2vh;
+        width: 40vw;
+    }
+
+
+    .padArt {
+        padding: 5vh;
+        width: 80vw;
+        height: 7vh;
+    }
+
+    .break {
+        padding-top: 1vh;
+    }
+
+    .gallery {
+        float: right;
+        padding-right: 1vh;
+        padding-bottom: 3vh;
+        width: 50vw;
+        color: #ffffff;
+        margin-top: -27vh;
+    }
 }
 
 @media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
@@ -144,7 +298,7 @@
 
     .padArt {
         padding: 5vh;
-        width: 95vw;
+        width: 80vw;
         height: 7vh;
     }
 
@@ -224,7 +378,7 @@
 
     .padArt {
         padding: 5vh;
-        width: 95vw;
+        width: 80vw;
         height: 7vh;
     }
 
@@ -304,7 +458,7 @@
 
     .padArt {
         padding: 5vh;
-        width: 95vw;
+        width: 80vw;
         height: 15vh;
     }
 
@@ -385,7 +539,7 @@
 
     .padArt {
         padding: 5vh;
-        width: 95vw;
+        width: 80vw;
         height: 20vh;
     }
 
@@ -466,7 +620,7 @@
 
     .padArt {
         padding: 5vh;
-        width: 95vw;
+        width: 80vw;
         height: 20vh;
     }
 
@@ -547,7 +701,7 @@
 
     .padArt {
         padding: 5vh;
-        width: 95vw;
+        width: 80vw;
         height: 20vh;
     }
 
@@ -568,83 +722,83 @@
 /*=======================================================================================================================================================================*/
 @media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
     .leftSide {
-    width: 45vw;
-    margin-left: 3vw;
-    margin-bottom: 12vh;
-    margin-top: 4vh;
-    padding-top: 1vh;
-}
+        width: 45vw;
+        margin-left: 3vw;
+        margin-bottom: 12vh;
+        margin-top: 4vh;
+        padding-top: 1vh;
+    }
 
-.artSub {
-    width: 35vw;
-    text-align: left;
-    font-size: 1.3em;
-    font-family: 'Raleway', sans-serif;
-    border-left: #3F3C3C solid 3px;
-    padding-left: 2vw;
-}
+    .artSub {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        padding-left: 2vw;
+    }
 
-.subt {
-    width: 35vw;
-    text-align: left;
-    font-size: 1.3em;
-    font-family: 'Raleway', sans-serif;
-    padding-left: 4vw;
-    padding-top: 10vh;
-}
+    .subt {
+        width: 35vw;
+        text-align: left;
+        font-size: 1.3em;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 4vw;
+        padding-top: 10vh;
+    }
 
-.artDesc {
-    float: left;
-    width: 42vw;
-    text-align: left;
-    font-size: 0.8em;
-    font-family: 'Raleway', sans-serif;
-    border-left: #3F3C3C solid 3px;
-    border-bottom: #3F3C3C solid 3px;
-    padding-bottom: 2vw;
-    padding-left: 3vw;
-    padding-top: 1vh;
-    margin: 0;
-}
+    .artDesc {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        border-left: #3F3C3C solid 3px;
+        border-bottom: #3F3C3C solid 3px;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
 
-.artList {
-    float: left;
-    width: 42vw;
-    text-align: left;
-    font-size: 1.2em;
-    font-size: 0.8em;
-    font-family: 'Raleway', sans-serif;
-    padding-bottom: 1vw;
-    padding-left: 3vw;
-    padding-top: 1vh;
-    margin: 0;
-}
+    .artList {
+        float: left;
+        width: 42vw;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-top: 1vh;
+        margin: 0;
+    }
 
-.artItem {
-    margin-left: 3vw;
-    margin-top: 2vh;
-    width: 40vw;
-}
+    .artItem {
+        margin-left: 3vw;
+        margin-top: 2vh;
+        width: 40vw;
+    }
 
 
-.padArt {
-    padding: 5vh;
-    width: 95vw;
-    height: 10vh;
-}
+    .padArt {
+        padding: 5vh;
+        width: 80vw;
+        height: 10vh;
+    }
 
-.break {
-    padding-top: 1vh;
-}
+    .break {
+        padding-top: 1vh;
+    }
 
-.gallery {
-    float: right;
-    padding-right: 1vh;
-    padding-bottom: 3vh;
-    width: 50vw;
-    color: #ffffff;
-    margin-top: -20vh;
-}
+    .gallery {
+        float: right;
+        padding-right: 1vh;
+        padding-bottom: 3vh;
+        width: 50vw;
+        color: #ffffff;
+        margin-top: -20vh;
+    }
 }
 
 @media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
@@ -703,8 +857,8 @@
     }
 
     .padArt {
-        padding: 10vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 80vw;
         height: 80vh;
     }
 
@@ -771,8 +925,8 @@
     }
 
     .padArt {
-        padding: 10vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 80vw;
         height: 120vh;
     }
 
@@ -839,8 +993,8 @@
     }
 
     .padArt {
-        padding: 10vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 80vw;
         height: 120vh;
     }
 
@@ -907,8 +1061,8 @@
     }
 
     .padArt {
-        padding: 10vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 80vw;
         height: 280vh;
     }
 
@@ -975,8 +1129,8 @@
     }
 
     .padArt {
-        padding: 10vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 80vw;
         height: 285vh;
     }
 
@@ -1043,8 +1197,8 @@
     }
 
     .padArt {
-        padding: 10vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 80vw;
         height: 355vh;
     }
 
@@ -1112,8 +1266,8 @@
     }
 
     .padArt {
-        padding: 10vh;
-        width: 95vw;
+        padding: 5vh;
+        width: 80vw;
         height: 640vh;
     }
 

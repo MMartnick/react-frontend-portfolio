@@ -36,7 +36,7 @@ function Dev(props) {
 
                     <p className="padDev">
                         &nbsp;
-                    </p>  
+                    </p>
 
                     <div className="websites">
                         <article className="weblink">
@@ -76,11 +76,11 @@ function Dev(props) {
                             My current project is top down roleplaying game using advanced pathfinding and mobile device light sensor data, my secondary project has been an endless runner currently available on the Google Play Store.
                             Follow the link below to view my thesis presentation for more information on these projects.
 
-                                         <p>
+                        <p>
                                 &nbsp;
                             <a href="https://spark.adobe.com/page/0MDSRprz9ILgm/" target="_blank" className="sublink">
                                     >> See More...
-                                </a>
+                            </a>
                             </p>
                         </p>
                     </article>
