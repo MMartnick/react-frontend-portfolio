@@ -473,10 +473,10 @@ nav {
     .App-header {
         padding-bottom: 2vh;
         font-family: 'Raleway', sans-serif;
-        font-size: 0.9em;
+        font-size: 0.8em;
         width: 100vw;
         position: fixed;
-        height: 4.0vh;
+        height: 10.0vh;
         color: #ffffff;
         background-color: #060e0fce;
     }
@@ -496,16 +496,16 @@ nav {
     }
 
     .navlink {
-        margin-left: 4vw;
-        margin-right: 4vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
     }
 
     .faHead {
         font-size: 2em;
         color: #ffffff;
         text-decoration: none;
-        margin-left: 4vw;
-        margin-right: 4vw;
+        margin-left: 1vw;
+        margin-right: 2vw;
         margin-top: 1vh;
     }
 }
@@ -676,6 +676,48 @@ nav {
             margin-top: 1.5vh;
         }
     }
+
+@media screen and (max-width:360.98px), screen and (max-height: 640.98px) and (orientation: portrait) {
+
+    .App-header {
+        padding-bottom: 2vh;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.65em;
+        width: 100vw;
+        position: fixed;
+        height: 6vh;
+        color: #ffffff;
+        background-color: #060e0fce;
+    }
+
+    nav {
+        margin-top: 1vh;
+        display: inline;
+        float: right;
+        position: static;
+        text-align: center;
+    }
+
+    .headIcon {
+        float: right;
+        padding: 4vw;
+        margin-top: 2vh;
+    }
+
+    .navlink {
+        margin-left: 0.6vw;
+        margin-right: 0.6vw
+    }
+
+    .faHead {
+        font-size: 1.9em;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 1.3vh;
+    }
+}
     /*=======================================================================================================================================================================*/
 
     @media (max-width:320.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
