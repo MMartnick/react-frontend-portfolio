@@ -372,7 +372,7 @@
 
     .rpgImg {
         float: right;
-        margin-right: 25vw;
+        margin-right: 20vw;
         width: 40vw;
         border: #3F3C3C solid 1px;
         border-radius: 10px;
@@ -425,7 +425,7 @@
 
     .gameVid {
         margin: 1vw;
-        width: 45vw;
+        width: 50vw;
     }
 
     .devImg {
@@ -490,7 +490,7 @@
 
     .gameVid {
         margin: 1vw;
-        width: 45vw;
+        width: 50vw;
     }
 
     .devImg {
@@ -630,8 +630,9 @@
 
     .devImg {
         margin: 0 auto;
-        width: 15vw;
+        width: 35vw;
         border-radius: 10px;
+        padding-bottom: 5vh;
     }
 
     .rpgImg {
@@ -693,8 +694,9 @@
 
     .devImg {
         margin: 0 auto;
-        width: 85vw;
+        width: 35vw;
         border-radius: 10px;
+        padding-bottom: 5vh;
     }
 
     .rpgImg {
@@ -819,8 +821,9 @@
 
     .devImg {
         margin: 0 auto;
-        width: 85vw;
+        width: 35vw;
         border-radius: 10px;
+        padding-bottom: 5vh;
     }
 
     .rpgImg {
@@ -882,8 +885,9 @@
 
     .devImg {
         margin: 0 auto;
-        width: 85vw;
+        width: 35vw;
         border-radius: 10px;
+        padding-bottom: 5vh;
     }
 
     .rpgImg {
@@ -945,8 +949,9 @@
 
     .devImg {
         margin: 0 auto;
-        width: 85vw;
+        width: 35vw;
         border-radius: 10px;
+        padding-bottom: 5vh;
     }
 
     .rpgImg {
@@ -1007,8 +1012,9 @@
 
     .devImg {
         margin: 0 auto;
-        width: 85vw;
+        width: 39vw;
         border-radius: 10px;
+        padding-bottom: 5vh;
     }
 
     .rpgImg {
@@ -1070,8 +1076,9 @@
 
     .devImg {
         margin: 0 auto;
-        width: 85vw;
+        width: 35vw;
         border-radius: 10px;
+        padding-bottom: 5vh;
     }
 
     .rpgImg {

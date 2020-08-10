@@ -269,7 +269,7 @@ nav {
     }
 }
 
-@media (max-width: 993px) {
+@media (max-width: 992px) {
     .App-header {
         padding-bottom: 2vh;
         font-family: 'Raleway', sans-serif;
@@ -290,6 +290,7 @@ nav {
         margin-top: 1vh;
     }
 }
+
 
 @media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
     .App-header {
@@ -434,7 +435,7 @@ nav {
         font-size: 0.85em;
         width: 100vw;
         position: fixed;
-        height: 4.0vh;
+        height: 4.5vh;
         color: #ffffff;
         background-color: #060e0fce;
     }
@@ -550,6 +551,47 @@ nav {
             margin-top: 1vh;
         }
     }
+
+@media (max-width:575.98px) {
+    .App-header {
+        padding-bottom: 2vh;
+        font-family: 'Raleway', sans-serif;
+        font-size: .7em;
+        width: 100vw;
+        position: fixed;
+        height: 5.0vh;
+        color: #ffffff;
+        background-color: #060e0fce;
+    }
+
+    nav {
+        margin-top: 1vh;
+        display: inline;
+        float: right;
+        position: static;
+        text-align: center;
+    }
+
+    .headIcon {
+        float: right;
+        padding: 4vw;
+        margin-top: 2vh;
+    }
+
+    .navlink {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .faHead {
+        font-size: 2em;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 1vh;
+    }
+}
 
     @media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
         .App-header {

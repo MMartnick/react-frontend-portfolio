@@ -716,9 +716,9 @@ p {
 @media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
     #maintitle {
         margin: auto;
-        padding-top: 12vh;
+        padding-top: 11vh;
         padding-bottom: 10vh;
-        width: 80vw;
+        width: 50vw;
         z-index: 2;
     }
 
@@ -1048,7 +1048,7 @@ p {
 
     #maintitle {
         margin: auto;
-        padding-top: 12vh;
+        padding-top: 13vh;
         padding-bottom: 10vh;
         width: 80vw;
         z-index: 2;

@@ -270,6 +270,12 @@
         margin: 1vw;
         margin-top: 2vh;
     }
+
+    .padDes {
+        padding: 1vh;
+        width: 70vw;
+        height: 1vh;
+    }
 }
 
 @media (max-width: 992px) {
@@ -338,6 +344,12 @@
         width: 34vw;
         margin: 1vw;
         margin-top: 2vh;
+    }
+
+    .padDes {
+        padding: 2vh;
+        width: 70vw;
+        height: 5vh;
     }
 
 }
@@ -411,9 +423,9 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 2vh;
         width: 70vw;
-        height: 10vh;
+        height: 5vh;
     }
 }
 
@@ -486,9 +498,9 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 2vh;
         width: 70vw;
-        height: 10vh;
+        height: 5vh;
     }
 }
 
@@ -561,9 +573,9 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 2vh;
         width: 70vw;
-        height: 10vh;
+        height: 5vh;
     }
 }
 
@@ -636,7 +648,7 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 1vh;
         width: 70vw;
         height: 10vh;
     }
@@ -908,7 +920,7 @@
         margin: 0 auto;
         align-items: center;
         width: 20vw;
-        margin: 1.5vw;
+        margin: 1vw;
     }
 
     .albums {
@@ -920,7 +932,7 @@
         margin: 0 auto;
         align-items: center;
         width: 26vw;
-        margin: 2vw;
+        margin: 1vw;
         margin-top: 5vh;
         border: #3F3C3C solid 1px;
         border-radius: 10px;
@@ -939,9 +951,9 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 1vh;
         width: 70vw;
-        height: 3vh;
+        height: 2vh;
     }
 }
 
@@ -1014,9 +1026,9 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 2vh;
         width: 70vw;
-        height: 4vh;
+        height: 2vh;
     }
 }
 
@@ -1089,9 +1101,9 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 2vh;
         width: 70vw;
-        height: 4vh;
+        height: 1vh;
     }
 }
 
@@ -1164,9 +1176,9 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 2vh;
         width: 70vw;
-        height: 4vh;
+        height: 1vh;
     }
 }
 /*=======================================================================================================================================================================*/
@@ -1240,8 +1252,8 @@
     }
 
     .padDes {
-        padding: 5vh;
+        padding: 3vh;
         width: 70vw;
-        height: 4vh;
+        height: 1vh;
     }
 }

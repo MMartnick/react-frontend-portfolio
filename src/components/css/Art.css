@@ -16,7 +16,7 @@
 }
 
 .subt {
-    width: 35vw;
+    width: 70vw;
     text-align: left;
     font-size: 1.9em;
     font-family: 'Raleway', sans-serif;
@@ -95,7 +95,7 @@
     }
 
     .subt {
-        width: 35vw;
+        width: 65vw;
         text-align: left;
         font-size: 1.9em;
         font-family: 'Raleway', sans-serif;
@@ -739,7 +739,7 @@
     }
 
     .subt {
-        width: 35vw;
+        width: 85vw;
         text-align: left;
         font-size: 1.3em;
         font-family: 'Raleway', sans-serif;
@@ -857,9 +857,10 @@
     }
 
     .padArt {
-        padding: 5vh;
-        width: 80vw;
-        height: 80vh;
+        padding: 1vh;
+        width: 96.5vw;
+        height: 120vh;
+        border-bottom: #3F3C3C solid 3px;
     }
 
     .break {
@@ -925,9 +926,10 @@
     }
 
     .padArt {
-        padding: 5vh;
-        width: 80vw;
-        height: 120vh;
+        padding: 1vh;
+        width: 96.5vw;
+        height: 140vh;
+        border-bottom: #3F3C3C solid 3px;
     }
 
     .break {
@@ -954,7 +956,7 @@
 
     .leftBottom {
         width: 92vw;
-        margin-top: 4vh;
+        margin-top: 1vh;
         margin: 0 auto;
     }
 
@@ -993,9 +995,10 @@
     }
 
     .padArt {
-        padding: 5vh;
-        width: 80vw;
-        height: 120vh;
+        padding: 1vh;
+        width: 96.5vw;
+        height: 140vh;
+        border-bottom: #3F3C3C solid 3px;
     }
 
     .break {
@@ -1061,9 +1064,10 @@
     }
 
     .padArt {
-        padding: 5vh;
-        width: 80vw;
-        height: 280vh;
+        padding: 1vh;
+        width: 96.5vw;
+        height: 300vh;
+        border-bottom: #3F3C3C solid 3px;
     }
 
     .break {
@@ -1129,9 +1133,10 @@
     }
 
     .padArt {
-        padding: 5vh;
-        width: 80vw;
-        height: 285vh;
+        padding: 1vh;
+        width: 96.5vw;
+        height: 300vh;
+        border-bottom: #3F3C3C solid 3px;
     }
 
     .break {
@@ -1197,9 +1202,10 @@
     }
 
     .padArt {
-        padding: 5vh;
-        width: 80vw;
-        height: 355vh;
+        padding: 1vh;
+        width: 96.5vw;
+        height: 370vh;
+        border-bottom: #3F3C3C solid 3px;
     }
 
     .break {
