@@ -31,6 +31,12 @@ function Dev(props) {
                             However, I have also crossed into other areas as well and while I excel in frontend development I have worked in backend.
                             Some of those technologies include Java with the JSP framework on the corporate level, Angular 2+, Apache server, and some of the Microsoft Office Suite of development tools like Access and SharePoint.
                        </p>
+
+                        <p className="de">
+                            Below I've included links to some of my previous web projects. 
+                            Most of these projects are older and not reflective of my current skillest, in the coming months I will be updating/replacing these to better demonstrate my abilities. 
+                            You're understanding is appreciated. 
+                       </p>
                         <p> &nbsp; </p>
                     </article>
 

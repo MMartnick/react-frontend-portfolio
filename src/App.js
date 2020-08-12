@@ -11,9 +11,20 @@ import './App.css';
 function App() {
     return (
         <BrowserRouter>
+            <head>
+             
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175309816-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-175309816-1');
+                </script>
+            </head>
 
             <header className="App-header">
-               
+
                 <nav>
                     <Link to="/" class="navlink">Main</Link>
                     <Link to="/Dev" class="navlink">Web & Software Development</Link>
