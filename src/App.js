@@ -8,20 +8,15 @@ import Art from './components/js/Art.js';
 
 import './App.css';
 
+import ReactGA from 'react-ga';
+
+
+
 function App() {
     return (
         <BrowserRouter>
-            <head>
-             
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175309816-1"></script>
-                <script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
 
-                    gtag('config', 'UA-175309816-1');
-                </script>
-            </head>
+
 
             <header className="App-header">
 
@@ -56,6 +51,9 @@ function App() {
 
         </BrowserRouter>
     );
+
+    ReactGA.initialize('UA-175309816-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
 export default App;
