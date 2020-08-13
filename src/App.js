@@ -8,15 +8,12 @@ import Art from './components/js/Art.js';
 
 import './App.css';
 
-import ReactGA from 'react-ga';
-
 
 
 function App() {
     return (
+
         <BrowserRouter>
-
-
 
             <header className="App-header">
 
@@ -47,13 +44,8 @@ function App() {
                 <Route path="/Art" component={Art} />
             </body>
 
-
-
         </BrowserRouter>
     );
-
-    ReactGA.initialize('UA-175309816-1');
-    ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
 export default App;
