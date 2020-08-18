@@ -1,7 +1,8 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
+import { createBrowserHistory } from 'history';
 
 import '../css/Dev.css';
 
@@ -9,6 +10,20 @@ import '../css/Dev.css';
 import Outrun from './Dev/OutRun';
 import AN from './Dev/AN';
 import FinalFantasy from './Dev/FinalFantasy';
+
+const trackingId = "UA-175309816-1";
+const history = createBrowserHistory();
+
+ReactGA.initialize(trackingId);
+ReactGA.set({
+    category: "Browser History",
+    action: "User came to dev page",
+})
+
+history.listen(location => {
+    ReactGA.set({ page: location.pathname }); // Update the user's current page
+    ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 
 function Dev(props) {
