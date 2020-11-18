@@ -5,10 +5,6 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import { DesImagesPath } from "./DesImagesPath";
 
 import '../../css/SoftwareComponent.css';
-import Logos from './Logos';
-import Music from './Music';
-import Games from './Games';
-
 
 function DesImages(props) {
     const [currentImage, setCurrentImage] = useState(0);
@@ -25,9 +21,6 @@ function DesImages(props) {
     };
 
     return (
-        <div>
-        <Logos></Logos>
-
             <div className="gallery">
                 <Gallery photos={DesImagesPath} onClick={openLightbox} />
                 <ModalGateway>
@@ -45,10 +38,6 @@ function DesImages(props) {
                     ) : null}
                 </ModalGateway>
             </div>
-
-        <Music></Music>
-        <Games></Games>
-        </div>
     );
 }
 export default DesImages;

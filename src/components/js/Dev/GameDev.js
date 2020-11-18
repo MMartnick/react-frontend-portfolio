@@ -5,8 +5,8 @@ import '../../css/SoftwareComponent.css';
 
 function GameDev(props) {
     return (
-        <div className="project">            
-            <article className="leftContent">
+        <div className="project ">            
+            <article className="leftContent ">
             <p className="subDev">Mobile App & Game Development</p>
             <p className="de">
             Game development has been mostly a newer experience largely guided by my master's degree program through Full Sail University, the MS in Mobile Game Development.
@@ -23,13 +23,10 @@ function GameDev(props) {
             </p>
             </article>
 
-                                       <div className="rightContent">
+           <div className="rightContent">
            <img src="/images/Design/outrun.png" alt="Outrunner Logo" className="devImg" />
-           <iframe className="gameVid" width="560" height="315" src="https://www.youtube.com/embed/4uTy1rmPGwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+           <iframe className="outVid gameVid " width="560" height="315" src="https://www.youtube.com/embed/4uTy1rmPGwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
            </div>
-
-
-
         </div>
     )
 }

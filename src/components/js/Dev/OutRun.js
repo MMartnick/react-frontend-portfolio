@@ -6,10 +6,8 @@ import '../../css/SoftwareComponent.css';
 
 function OutRun(props) {
     return (
-        <div className="project">
-
-
-            <article className="leftContent">
+        <div className="project ">
+            <article className="leftContent  ">
                 <p className="subGame">Out Runner - </p>
                 <p className="de">
                     Out Runner is a standard endless run and gun platformer designed for mobile devices.
@@ -22,10 +20,6 @@ function OutRun(props) {
                     </a>
                     </p>
                 </article>
-
-                           <div className="rightContent">
-
-     </div>
         </div>
     )
 }

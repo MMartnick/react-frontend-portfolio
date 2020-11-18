@@ -6,6 +6,8 @@ import { createBrowserHistory } from 'history';
 
 import '../css/Main.css';
 import ArtImages from './Art/ArtImages';
+import Painting from './Art/Painting';
+import Exhibitions from './Art/Exhibitions';
 
 const trackingId = "UA-175309816-1";
 const history = createBrowserHistory();
@@ -28,8 +30,9 @@ function Art(props) {
                 <p id="topic">Fine Art</p>
             </section>
       
-
             <ArtImages></ArtImages>
+            <Painting></Painting>
+            <Exhibitions></Exhibitions>
         </div>
     )
 }

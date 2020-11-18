@@ -3,24 +3,26 @@
     width: 97vw;
     height: 17vh;
     z-index: 2;
-  /*  border: dashed 3px blue; */
+    border: dashed 3px blue; 
 }
 
 .leftContent {
     float: left;
     margin-bottom: 0vh;
-    margin-left: 2vw;
-    width: 40vw;
+    margin-left: 1vw;
+    margin-right: 5vw;
+    width: 45vw;
+   border: dashed 3px yellow;
+
 }
 
 .rightContent {
-    margin-top: -15vh;
+    margin-top: -35vh;
     margin-right: 3vh;
     float: right;
     display: inline;
     width: 44vw;
-
-    /*border: dashed 3px green;*/
+    border: dashed 3px green;
 }
 
 .subDev {
@@ -59,6 +61,10 @@
     border-radius: 20px;
 }
 
+.outVid {
+    margin-top: 0vh;
+}
+
 .devImg {
     margin-right: 2vw;
     width: 12vw;
@@ -80,3 +86,126 @@
     color: #ffffff;
     margin-top: -12vh;
 }
+
+CSS Media Queries =============================================================================================================
+
+@media (max-width: 1312px) {
+}
+
+@media (max-width: 1280px) {
+}
+
+    @media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
+    }
+
+@media (max-width: 992px) {
+}
+
+    @media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
+    }
+
+    @media screen and (max-width:896.98px), screen and (max-height: 414.98px) and (orientation: landscape) {
+    }
+
+    @media screen and (max-width:812.98px), screen and (max-height: 375.98px) and (orientation: landscape) {
+    }
+
+    @media screen and (max-width:780.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
+    }
+
+    /*=======================================================================================================================================================================*/
+
+
+    @media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
+    }
+
+    @media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
+    }
+
+@media (max-width: 688px) {
+}
+
+    @media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
+    }
+
+    @media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
+    }
+
+    @media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
+    }
+
+    @media screen and (max-width:360.98px), screen and (max-height: 780.98px) and (orientation: portrait) {
+    
+    
+.project {
+    width: 94vw;
+    height: 1vh;
+    padding-top: 4vh;
+    padding-bottom: 40vh;
+}
+
+.leftContent {
+    float: none;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.rightContent {
+    float: none;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.mobilePad {
+    padding-top: 40vh;
+}
+
+.subDev {
+    font-size: 16pt;
+    padding-top: 0vh;
+    padding-bottom: 1vh;
+}
+
+.subGame {
+    font-size: 18pt;
+    }
+
+.de {
+    margin: 0 auto;
+    width: 90vw;
+    font-size: .9em;
+    padding-bottom: 5vh;
+}
+
+.gameVid {
+    width: 90vw;
+    height: 28vh;
+}
+
+.outVid {
+    margin-top: 40vh;
+}
+
+.devImg {
+    margin-right: 0vw;
+    width: 0vw;
+}
+
+.artItem {
+    margin-top: 2vh;
+    width: 96vw;
+}
+
+.gallery {
+    float: none;
+        margin: 0 auto;
+    padding-right: 0vh;
+    width:90vw;
+    margin-top: 2vh;
+}
+    }
+    /*=======================================================================================================================================================================*/
+
+    @media (max-width:319.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
+
+    }

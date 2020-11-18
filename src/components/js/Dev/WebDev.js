@@ -15,10 +15,6 @@ function WebDev(props) {
              Some of those technologies include Java with the JSP framework on the corporate level, Angular 2+, Apache server, and some of the Microsoft Office Suite of development tools like Access and SharePoint.
              </p>
              </article>        
-
-                     <div className="rightContent">
-     </div>
-
         </div>
     )
 }

@@ -5,7 +5,7 @@ import '../../css/SoftwareComponent.css';
 
 function AN(props) {
     return (
-        <div className="project">
+        <div className="project mobilePad">
             <article className="leftContent">
                 <p className="subGame">Artificial Nocturne - </p>
                 <p className="de">

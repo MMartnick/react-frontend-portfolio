@@ -7,6 +7,9 @@ import { createBrowserHistory } from 'history';
 
 import '../css/SoftwareComponent.css';
 import DesImages from './Design/DesImages';
+import Logos from './Design/Logos';
+import Music from './Design/Music';
+import Games from './Design/Games';
 
 const trackingId = "UA-175309816-1";
 const history = createBrowserHistory();
@@ -30,6 +33,9 @@ function Design(props) {
             </section>
 
             <DesImages></DesImages>
+            <Logos></Logos>
+            <Music ></Music>
+            <Games></Games>
         </div>
     )
 }

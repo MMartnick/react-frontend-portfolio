@@ -5,8 +5,6 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import { ArtImagesPath } from "./ArtImagesPath";
 
 import '../../css/SoftwareComponent.css';
-import Painting from './Painting';
-import Exhibitions from './Exhibitions';
 
 function ArtImages(props) {
     const [currentImage, setCurrentImage] = useState(0);
@@ -23,10 +21,6 @@ function ArtImages(props) {
     };
 
     return (
-        <div>
-
-        <Painting></Painting>
-
             <div className="gallery">
                 <Gallery photos={ArtImagesPath} onClick={openLightbox} />
                 <ModalGateway>
@@ -44,10 +38,6 @@ function ArtImages(props) {
                     ) : null}
                 </ModalGateway>
             </div>
-
-        <Exhibitions></Exhibitions>
-        
-        </div>
     );
 }
 export default ArtImages;

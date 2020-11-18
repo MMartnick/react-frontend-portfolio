@@ -39,7 +39,6 @@ function Dev(props) {
                 <Outrun></Outrun>
                 <AN></AN>
                 {/* <FinalFantasy></FinalFantasy> */}
-
             </section>
             </div>
         </div>
