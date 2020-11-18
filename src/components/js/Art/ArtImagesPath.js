@@ -1,4 +1,4 @@
-export const ImagesPath = [
+export const ArtImagesPath = [
     {
         src: "/images/Art/astro.png",
         width: 1,

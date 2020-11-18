@@ -5,7 +5,7 @@ import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
 
 import '../css/Main.css';
-import Images from './Art/Images';
+import ArtImages from './Art/ArtImages';
 
 const trackingId = "UA-175309816-1";
 const history = createBrowserHistory();
@@ -24,14 +24,13 @@ history.listen(location => {
 function Art(props) {
     return (
         <div>
-        <div className="faBanner">
-            <section id="maintitle">
+            <section id="pagetitle">
                 <p id="topic">Fine Art</p>
             </section>
-            </div>
+      
 
-            <Images></Images>
-            </div>
+            <ArtImages></ArtImages>
+        </div>
     )
 }
 

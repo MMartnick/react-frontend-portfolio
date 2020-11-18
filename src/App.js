@@ -13,6 +13,8 @@ function App() {
 
         <BrowserRouter>
 
+        <div >
+
             <header className="App-header">
 
                 <nav>
@@ -42,7 +44,7 @@ function App() {
                 </nav>
             </header>
 
-            <body>
+            <body className="container">
 
                 <Route exact path="/" component={Main}/>
 
@@ -53,6 +55,7 @@ function App() {
                 <Route path="/Art" component={Art}/>
 
             </body>
+            </div>
 
         </BrowserRouter>
     );

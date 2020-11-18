@@ -3,11 +3,10 @@ import ReactGA from 'react-ga';
 
 import { createBrowserHistory } from 'history';
 
-import Logos from './Design/Logos.js';
-import Music from './Design/Music.js';
-import GameArt from './Design/GameArt.js';
 
-import '../css/Des.css';
+
+import '../css/SoftwareComponent.css';
+import DesImages from './Design/DesImages';
 
 const trackingId = "UA-175309816-1";
 const history = createBrowserHistory();
@@ -25,18 +24,12 @@ history.listen(location => {
 
 function Design(props) {
     return (
+        <div>
+            <section id="pagetitle">
+                <p id="topic">Graphic Design</p>
+            </section>
 
-        <div className="container">
-            <div className="desBanner">
-                <section id="maintitle">
-                    <p id="topic">Graphic Design</p>
-                </section>
-            </div>
-
-            <Logos></Logos>
-            <Music></Music>
-            <GameArt></GameArt>
-
+            <DesImages></DesImages>
         </div>
     )
 }

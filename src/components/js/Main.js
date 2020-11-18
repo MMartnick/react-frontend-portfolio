@@ -25,13 +25,8 @@ history.listen(location => {
 
 function Main(props) {
     return (
-        <div className="container">
+        <div>
             <Name></Name>
-
-
-            <div>
-                <p className="mainMessage">We're still undergoing development so please excuse the mess.</p>
-            </div>
         </div>
 
 

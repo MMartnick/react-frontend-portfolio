@@ -5,7 +5,7 @@ import '../css/Main.css';
 
 function Name(props) {
         return (
-            <div className="container">
+            <div>
                 <section id="maintitle">
                     <p id="studio">MATTHEW MARTNICK</p>
                     <p id="occupation"> - DEVELOPMENT / DESIGN / ART</p>

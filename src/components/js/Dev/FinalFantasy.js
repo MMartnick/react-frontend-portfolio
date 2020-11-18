@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import '../../css/Dev.css';
+{/*import '../../css/Dev.css';*/}
 
 function FinalFantasy(props) {
     return (
