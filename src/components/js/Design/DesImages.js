@@ -4,7 +4,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { DesImagesPath } from "./DesImagesPath";
 
-import '../../css/SoftwareComponent.css';
+import '../../css/GalleryComponent.css';
 
 function DesImages(props) {
     const [currentImage, setCurrentImage] = useState(0);

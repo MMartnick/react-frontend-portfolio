@@ -73,23 +73,24 @@ nav {
 @media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
 	.App-header {
 		padding-bottom: 2vh;
-		font-size: 0.9em;
-		height: 6vh;
+		font-size: 0.8em;
+		height: 5vh;
 	}
 
 	nav {
+		padding-right: 3vw;
 		text-align: center;
 	}
 
 	.navlink {
-		margin-left: .05vw;
-		margin-right: .05vw;
+		margin-left: .1vw;
+		margin-right: .1vw;
 	}
 
 	.faHead {
 		font-size: 1.9em;
-		margin-left: 1.1vw;
-		margin-right: 1.1vw;
+		margin-left: 1.5vw;
+		margin-right: 1.5vw;
 		margin-top: 2vh;
 	}
 }
@@ -106,6 +107,7 @@ nav {
 	}
 
 	nav {
+		padding-right: 3vw;
 		text-align: center;
 	}
 
@@ -130,6 +132,7 @@ nav {
 	}
 
 	nav {
+		padding-right: 3vw;
 		text-align: center;
 	}
 
@@ -154,6 +157,7 @@ nav {
 	}
 
 	nav {
+		padding-right: 3vw;
 		text-align: center;
 	}
 
@@ -182,7 +186,27 @@ nav {
 }
 
 @media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
-	/*Sizing OK*/
+	.App-header {
+		padding-bottom: 2vh;
+		font-size: 1.2em;
+		height: 6.5vh;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	.navlink {
+		margin-left: .5vw;
+		margin-right: .5vw;
+	}
+
+	.faHead {
+		font-size: 1.7em;
+		margin-left: 4vw;
+		margin-right: 4vw;
+		margin-top: 2vh;
+	}
 }
 
 @media (max-width: 688.98px) {
@@ -291,7 +315,7 @@ nav {
 	.App-header {
 		padding-bottom: 2vh;
 		font-size: 0.65em;
-		height: 6vh;
+		height: 5.5vh;
 	}
 
 	nav {
