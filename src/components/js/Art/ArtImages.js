@@ -7,37 +7,37 @@ import { ArtImagesPath } from "./ArtImagesPath";
 import '../../css/SoftwareComponent.css';
 
 function ArtImages(props) {
-    const [currentImage, setCurrentImage] = useState(0);
-    const [viewerIsOpen, setViewerIsOpen] = useState(false);
+	const [currentImage, setCurrentImage] = useState(0);
+	const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-    const openLightbox = useCallback((event, { ImagesPath, index }) => {
-        setCurrentImage(index);
-        setViewerIsOpen(true);
-    }, []);
+	const openLightbox = useCallback((event, { ImagesPath, index }) => {
+		setCurrentImage(index);
+		setViewerIsOpen(true);
+	}, []);
 
-    const closeLightbox = () => {
-        setCurrentImage(0);
-        setViewerIsOpen(false);
-    };
+	const closeLightbox = () => {
+		setCurrentImage(0);
+		setViewerIsOpen(false);
+	};
 
-    return (
-            <div className="gallery">
-                <Gallery photos={ArtImagesPath} onClick={openLightbox} />
-                <ModalGateway>
-                    {viewerIsOpen ? (
-                        <Modal onClose={closeLightbox}>
-                            <Carousel
-                                currentIndex={currentImage}
-                                views={ArtImagesPath.map(x => ({
-                                    ...x,
-                                    srcset: x.srcSet,
-                                    caption: x.title
-                                }))}
-                            />
-                        </Modal>
-                    ) : null}
-                </ModalGateway>
-            </div>
-    );
+	return (
+		<div className="gallery">
+			<Gallery photos={ArtImagesPath} onClick={openLightbox} />
+			<ModalGateway>
+				{viewerIsOpen ? (
+					<Modal onClose={closeLightbox}>
+						<Carousel
+							currentIndex={currentImage}
+							views={ArtImagesPath.map(x => ({
+								...x,
+								srcset: x.srcSet,
+								caption: x.title
+							}))}
+						/>
+					</Modal>
+				) : null}
+			</ModalGateway>
+		</div>
+	);
 }
 export default ArtImages;

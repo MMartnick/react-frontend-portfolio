@@ -1,280 +1,852 @@
 
 .project {
-    width: 97vw;
-    height: 17vh;
-    z-index: 2;
-    border: dashed 3px blue; 
+	width: 97vw;
+	height: 17vh;
+	z-index: 2;
+	/*border: dashed 3px blue;*/
 }
 
 .leftContent {
-    float: left;
-    margin-bottom: 0vh;
-    margin-left: 1vw;
-    margin-right: 5vw;
-    width: 45vw;
-   border: dashed 3px yellow;
-
+	float: left;
+	margin-bottom: 0vh;
+	margin-left: 1vw;
+	margin-right: 5vw;
+	width: 45vw;
+	/*border: dashed 3px yellow;*/
 }
 
 .rightContent {
-    margin-top: -35vh;
-    margin-right: 3vh;
-    float: right;
-    display: inline;
-    width: 44vw;
-    border: dashed 3px green;
+	margin-top: -15vh;
+	margin-right: 3vh;
+	float: right;
+	display: inline;
+	width: 44vw;
+	/*border: dashed 3px green;*/
 }
 
 .subDev {
-    font-size: 20pt;
-    font-family: 'Raleway', sans-serif;
-    padding-left: 1vw;
-    padding-top: 1vh;
+	font-size: 20pt;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 1vw;
+	padding-top: 1vh;
 }
 
 .subGame {
-    font-size: 18pt;
-    font-family: 'Raleway', sans-serif;
-    padding-left: 2vw;
-    }
+	font-size: 18pt;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 2vw;
+}
 
 .de {
-    width: 44vw;
-    font-size: .9em;
-    font-family: 'Noto Serif JP', serif;
-    line-height: 1.2;
-    text-align: justify;
-    padding-left: 2vw;
-    padding-top: 1vh;
+	width: 44vw;
+	font-size: .9em;
+	font-family: 'Noto Serif JP', serif;
+	line-height: 1.2;
+	text-align: justify;
+	padding-left: 2vw;
+	padding-top: 1vh;
 }
 
 .webImg {
-    margin-top: 0.5vh;
-    margin-left: 3vw;
-    width: 25vw;
-    border-radius: 20px;
+	margin-top: 0.5vh;
+	margin-left: 3vw;
+	width: 25vw;
+	border-radius: 20px;
 }
 
 .gameVid {
-    width: 28vw;
-    height: 28vh;
-    border-radius: 20px;
+	width: 28vw;
+	height: 28vh;
+	border-radius: 20px;
 }
 
 .outVid {
-    margin-top: 0vh;
+	margin-top: 0vh;
 }
 
 .devImg {
-    margin-right: 2vw;
-    width: 12vw;
+	margin-right: 2vw;
+	width: 12vw;
 }
-
-
 
 .artItem {
-    margin-top: 2vh;
-    width: 40vw;
+	margin-top: 2vh;
+	width: 40vw;
 }
-
-
 
 .gallery {
-    float: right;
-    padding-right: 8vh;
-    width: 40vw;
-    color: #ffffff;
-    margin-top: -12vh;
+	float: right;
+	padding-right: 8vh;
+	width: 40vw;
+	color: #ffffff;
+	margin-top: -12vh;
 }
 
-CSS Media Queries =============================================================================================================
-
+/* CSS Media Queries ============================================================================================================= */
 @media (max-width: 1312px) {
 }
 
 @media (max-width: 1280px) {
 }
 
-    @media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
-    }
+@media screen and (max-width: 1024.98px), screen and (max-height: 768.98px) and (orientation: landscape) {
+	.project {
+		width: 97vw;
+		height: 28vh;
+	}
+
+	.leftContent {
+		float: left;
+		margin-bottom: 3vh;
+		margin-left: 1vw;
+		margin-right: 2vw;
+		width: 45vw;
+	}
+
+	.rightContent {
+		margin-top: -80vh;
+		margin-right: 3vh;
+		float: right;
+		display: inline;
+		width: 46vw;
+	}
+
+	.subDev {
+		font-size: 18pt;
+	}
+
+	.subGame {
+		font-size: 18pt;
+		padding-left: 2vw;
+	}
+
+	.de {
+		width: 44vw;
+		font-size: .9em;
+		line-height: 1.5;
+		padding-left: 2vw;
+		padding-top: 3vh;
+	}
+
+	.webImg {
+		margin-top: 0.5vh;
+		margin-left: 3vw;
+		width: 0vw;
+		border-radius: 20px;
+	}
+
+	.gameVid {
+		margin-left: 3vw;
+		width: 42vw;
+		height: 38vh;
+		border-radius: 15px;
+	}
+
+	.outVid {
+		margin-top: 0vh;
+	}
+
+	.devImg {
+		margin-top: 10vh;
+		margin-left: 8vw;
+		margin-bottom: 5vh;
+		width: 30vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 40vw;
+	}
+
+	.gallery {
+		float: right;
+		padding-right: 2vh;
+		width: 46vw;
+		margin-top: 0vh;
+	}
+}
 
 @media (max-width: 992px) {
+	/*Sizing OK*/
 }
 
-    @media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
-    }
+@media screen and (max-width: 962.98px), screen and (max-height: 601.98px) and (orientation: landscape) {
+	.project {
+		width: 97vw;
+		height: 28vh;
+	}
 
-    @media screen and (max-width:896.98px), screen and (max-height: 414.98px) and (orientation: landscape) {
-    }
+	.leftContent {
+		float: left;
+		margin-bottom: 10vh;
+		margin-left: 1vw;
+		margin-right: 2vw;
+		width: 45vw;
+	}
 
-    @media screen and (max-width:812.98px), screen and (max-height: 375.98px) and (orientation: landscape) {
-    }
+	.rightContent {
+		margin-top: -100vh;
+		margin-right: 3vh;
+		float: right;
+		display: inline;
+		width: 46vw;
+	}
 
-    @media screen and (max-width:780.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
-    }
+	.subDev {
+		font-size: 18pt;
+	}
 
-    /*=======================================================================================================================================================================*/
+	.subGame {
+		font-size: 18pt;
+		padding-left: 2vw;
+	}
 
+	.de {
+		width: 44vw;
+		font-size: .9em;
+		line-height: 1.5;
+		padding-left: 2vw;
+		padding-top: 3vh;
+	}
 
-    @media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
-    }
+	.webImg {
+		margin-top: 0.5vh;
+		margin-left: 3vw;
+		width: 0vw;
+		border-radius: 20px;
+	}
 
-    @media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
-    }
+	.gameVid {
+		margin-left: 3vw;
+		width: 42vw;
+		height: 38vh;
+		border-radius: 15px;
+	}
+
+	.outVid {
+		margin-top: 0vh;
+	}
+
+	.devImg {
+		margin-left: 10vw;
+		margin-bottom: 20vh;
+		width: 30vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 40vw;
+	}
+
+	.gallery {
+		float: right;
+		padding-right: 2vh;
+		width: 48vw;
+		margin-top: 0vh;
+	}
+}
+
+@media screen and (max-width:896.98px), screen and (max-height: 414.98px) and (orientation: landscape) {
+	.project {
+		width: 97vw;
+		height: 28vh;
+	}
+
+	.leftContent {
+		float: left;
+		margin-bottom: 10vh;
+		margin-left: 1vw;
+		margin-right: 2vw;
+		width: 45vw;
+	}
+
+	.rightContent {
+		margin-top: -65vh;
+		margin-right: 3vh;
+		float: right;
+		display: inline;
+		width: 46vw;
+	}
+
+	.subDev {
+		font-size: 18pt;
+	}
+
+	.subGame {
+		font-size: 18pt;
+		padding-left: 2vw;
+	}
+
+	.de {
+		width: 44vw;
+		font-size: .9em;
+		line-height: 1.5;
+		padding-left: 2vw;
+		padding-top: 3vh;
+	}
+
+	.webImg {
+		margin-top: 0.5vh;
+		margin-left: 3vw;
+		width: 0vw;
+		border-radius: 20px;
+	}
+
+	.gameVid {
+		margin-left: 3vw;
+		width: 42vw;
+		height: 58vh;
+		border-radius: 15px;
+	}
+
+	.outVid {
+		margin-top: 0vh;
+	}
+
+	.devImg {
+		margin-left: 10vw;
+		margin-bottom: 20vh;
+		width: 30vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 40vw;
+	}
+
+	.gallery {
+		float: right;
+		padding-right: 2vh;
+		width: 48vw;
+		margin-top: 0vh;
+	}
+}
+
+@media screen and (max-width:812.98px), screen and (max-height: 375.98px) and (orientation: landscape) {
+
+	.project {
+		width: 97vw;
+		height: 28vh;
+	}
+
+	.leftContent {
+		float: left;
+		margin-bottom: 10vh;
+		margin-left: 1vw;
+		margin-right: 2vw;
+		width: 45vw;
+	}
+
+	.rightContent {
+		margin-top: -65vh;
+		margin-right: 3vh;
+		float: right;
+		display: inline;
+		width: 46vw;
+	}
+
+	.subDev {
+		font-size: 18pt;
+	}
+
+	.subGame {
+		font-size: 18pt;
+		padding-left: 2vw;
+	}
+
+	.de {
+		width: 44vw;
+		font-size: .9em;
+		line-height: 1.5;
+		padding-left: 2vw;
+		padding-top: 3vh;
+	}
+
+	.webImg {
+		margin-top: 0.5vh;
+		margin-left: 3vw;
+		width: 0vw;
+		border-radius: 20px;
+	}
+
+	.gameVid {
+		margin-left: 3vw;
+		width: 42vw;
+		height: 58vh;
+		border-radius: 15px;
+	}
+
+	.outVid {
+		margin-top: 0vh;
+	}
+
+	.devImg {
+		margin-left: 10vw;
+		margin-bottom: 20vh;
+		width: 30vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 40vw;
+	}
+
+	.gallery {
+		float: right;
+		padding-right: 2vh;
+		width: 48vw;
+		margin-top: 0vh;
+	}
+}
+
+@media screen and (max-width:780.98px), screen and (max-height: 360.98px) and (orientation: landscape) {
+	/*Sizing OK*/
+}
+/*=======================================================================================================================================================================*/
+@media screen and (max-width: 768.98px), screen and (max-height: 1024.98px) and (orientation: portrait) {
+	/*Sizing OK*/
+}
+
+@media screen and (max-width: 720.98px), screen and (max-height: 1280.98px) and (orientation: portrait) {
+	.project {
+		width: 94vw;
+		height: 1vh;
+		padding-top: 1vh;
+		padding-bottom: 32vh;
+	}
+
+	.leftContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+
+	.rightContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+	}
+
+	.subDev {
+		font-size: 24pt;
+		padding-top: 0vh;
+		padding-bottom: 1vh;
+	}
+
+	.subGame {
+		font-size: 24pt;
+	}
+
+	.de {
+		margin: 0 auto;
+		width: 88vw;
+		font-size: 1.2em;
+		padding-bottom: 1vh;
+	}
+
+	.gameVid {
+		width: 90vw;
+		height: 28vh;
+		padding-bottom: 5vh;
+	}
+
+	.outVid {
+		margin-top: 34vh;
+	}
+
+	.mobilePad {
+		padding-top: 27vh;
+	}
+
+	.devImg {
+		margin-right: 0vw;
+		width: 0vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 88vw;
+	}
+
+	.gallery {
+		float: none;
+		margin: 0 auto;
+		padding-right: 0vh;
+		width: 90vw;
+		margin-top: 2vh;
+	}
+}
 
 @media (max-width: 688px) {
+	/*Sizing OK*/
 }
 
-    @media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
-    }
+@media screen and (max-width: 601.98px), screen and (max-height: 962.98px) and (orientation: portrait) {
+	.project {
+		width: 94vw;
+		height: 1vh;
+		padding-top: 1vh;
+		padding-bottom: 30vh;
+	}
 
-    @media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
-    }
+	.leftContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
 
-    @media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
-    .project {
-    width: 94vw;
-    height: 1vh;
-    padding-top: 1vh;
-    padding-bottom: 38vh;
+	.rightContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+	}
+
+	.subDev {
+		font-size: 18pt;
+		padding-top: 0vh;
+		padding-bottom: 1vh;
+	}
+
+	.subGame {
+		font-size: 18pt;
+	}
+
+	.de {
+		margin: 0 auto;
+		width: 88vw;
+		font-size: 0.9em;
+		padding-bottom: 1vh;
+	}
+
+	.gameVid {
+		width: 90vw;
+		height: 28vh;
+		padding-bottom: 5vh;
+	}
+
+	.outVid {
+		margin-top: 32vh;
+	}
+
+	.mobilePad {
+		padding-top: 27vh;
+	}
+
+	.devImg {
+		margin-right: 0vw;
+		width: 0vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 88vw;
+	}
+
+	.gallery {
+		float: none;
+		margin: 0 auto;
+		padding-right: 0vh;
+		width: 90vw;
+		margin-top: 2vh;
+	}
 }
 
-.leftContent {
-    float: none;
-    margin: 0 auto;
-    width: 90vw;
-            padding-top: 2vh;
-        padding-bottom: 2vh;
+@media screen and (max-width:414.98px), screen and (max-height: 896.98px) and (orientation: portrait) {
+	.project {
+		width: 94vw;
+		height: 1vh;
+		padding-top: 1vh;
+		padding-bottom: 38vh;
+	}
 
+	.leftContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+
+	.rightContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+	}
+
+	.subDev {
+		font-size: 16pt;
+		padding-top: 0vh;
+		padding-bottom: 1vh;
+	}
+
+	.subGame {
+		font-size: 18pt;
+	}
+
+	.de {
+		margin: 0 auto;
+		width: 88vw;
+		font-size: .85em;
+		padding-bottom: 1vh;
+	}
+
+	.gameVid {
+		width: 90vw;
+		height: 28vh;
+		padding-bottom: 5vh;
+	}
+
+	.outVid {
+		margin-top: 34vh;
+	}
+
+	.mobilePad {
+		padding-top: 27vh;
+	}
+
+	.devImg {
+		margin-right: 0vw;
+		width: 0vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 88vw;
+	}
+
+	.gallery {
+		float: none;
+		margin: 0 auto;
+		padding-right: 0vh;
+		width: 90vw;
+		margin-top: 2vh;
+	}
 }
 
-.rightContent {
-    float: none;
-    margin: 0 auto;
-    width: 90vw;
+@media screen and (max-width:393.98px), screen and (max-height: 851.98px) and (orientation: portrait) { /*Pixel4A*/
+	.project {
+		width: 94vw;
+		height: 1vh;
+		padding-top: 1vh;
+		padding-bottom: 38vh;
+	}
+
+	.leftContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+
+	.rightContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+	}
+
+	.subDev {
+		font-size: 16pt;
+		padding-top: 0vh;
+		padding-bottom: 1vh;
+	}
+
+	.subGame {
+		font-size: 18pt;
+	}
+
+	.de {
+		margin: 0 auto;
+		width: 88vw;
+		font-size: .85em;
+		padding-bottom: 1vh;
+	}
+
+	.gameVid {
+		width: 90vw;
+		height: 28vh;
+		padding-bottom: 5vh;
+	}
+
+	.outVid {
+		margin-top: 34vh;
+	}
+
+	.mobilePad {
+		padding-top: 27vh;
+	}
+
+	.devImg {
+		margin-right: 0vw;
+		width: 0vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 88vw;
+	}
+
+	.gallery {
+		float: none;
+		margin: 0 auto;
+		padding-right: 0vh;
+		width: 90vw;
+		margin-top: 2vh;
+	}
 }
 
-.subDev {
-    font-size: 16pt;
-    padding-top: 0vh;
-    padding-bottom: 1vh;
+@media screen and (max-width:375.98px), screen and (max-height: 812.98px) and (orientation: portrait) {
+	.project {
+		width: 94vw;
+		height: 1vh;
+		padding-top: 1vh;
+		padding-bottom: 38vh;
+	}
+
+	.leftContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+
+	.rightContent {
+		float: none;
+		margin: 0 auto;
+		width: 90vw;
+	}
+
+	.subDev {
+		font-size: 16pt;
+		padding-top: 0vh;
+		padding-bottom: 1vh;
+	}
+
+	.subGame {
+		font-size: 18pt;
+	}
+
+	.de {
+		margin: 0 auto;
+		width: 88vw;
+		font-size: .85em;
+		padding-bottom: 1vh;
+	}
+
+	.gameVid {
+		width: 90vw;
+		height: 28vh;
+		padding-bottom: 5vh;
+	}
+
+	.outVid {
+		margin-top: 34vh;
+	}
+
+	.mobilePad {
+		padding-top: 27vh;
+	}
+
+	.devImg {
+		margin-right: 0vw;
+		width: 0vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 88vw;
+	}
+
+	.gallery {
+		float: none;
+		margin: 0 auto;
+		padding-right: 0vh;
+		width: 90vw;
+		margin-top: 2vh;
+	}
 }
 
-.subGame {
-    font-size: 18pt;
-    }
+@media screen and (max-width:360.98px), screen and (max-height: 780.98px) and (orientation: portrait) {
 
-.de {
-    margin: 0 auto;
-    width: 88vw;
-    font-size: .85em;
-    padding-bottom: 1vh;
+
+	.project {
+		width: 94vw;
+		height: 1vh;
+		padding-top: 1vh;
+		padding-bottom: 55vh;
+	}
+
+	.leftContent {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 45vh;
+		width: 90vw;
+	}
+
+	.rightContent {
+		float: none;
+		margin: 0 auto;
+		margin-top: 10vh;
+		width: 90vw;
+	}
+
+	.mobilePad {
+		padding-top: 30vh;
+	}
+
+	.subDev {
+		font-size: 16pt;
+		padding-top: 0vh;
+		padding-bottom: 1vh;
+	}
+
+	.subGame {
+		font-size: 18pt;
+	}
+
+	.de {
+		margin: 0 auto;
+		width: 90vw;
+		font-size: .9em;
+		padding-bottom: 5vh;
+	}
+
+	.gameVid {
+		width: 90vw;
+		height: 28vh;
+		padding-bottom: 5vh;
+		margin-top: -105vh;
+	}
+
+	.outVid {
+		margin-top: 2vh;
+	}
+
+	.devImg {
+		margin-top: -145px;
+		margin-right: 0vw;
+		width: 0vw;
+	}
+
+	.artItem {
+		margin-top: 2vh;
+		width: 96vw;
+	}
+
+	.gallery {
+		float: none;
+		margin: 0 auto;
+		padding-right: 0vh;
+		width: 90vw;
+		margin-top: 2vh;
+	}
 }
+/*=======================================================================================================================================================================*/
+@media (max-width:319.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
 
-.gameVid {
-    width: 90vw;
-    height: 28vh;
 }
-
-.outVid {
-    margin-top: 34vh;
-}
-
-.mobilePad {
-    padding-top: 27vh;
-}
-
-.devImg {
-    margin-right: 0vw;
-    width: 0vw;
-}
-
-.artItem {
-    margin-top: 2vh;
-    width: 88vw;
-}
-
-.gallery {
-    float: none;
-    margin: 0 auto;
-    padding-right: 0vh;
-    width:90vw;
-    margin-top: 2vh;
-}
-    }
-
-    @media screen and (max-width:360.98px), screen and (max-height: 780.98px) and (orientation: portrait) {
-    
-    
-.project {
-    width: 94vw;
-    height: 1vh;
-    padding-top: 4vh;
-    padding-bottom: 40vh;
-}
-
-.leftContent {
-    float: none;
-    margin: 0 auto;
-    width: 90vw;
-}
-
-.rightContent {
-    float: none;
-    margin: 0 auto;
-    width: 90vw;
-}
-
-.mobilePad {
-    padding-top: 40vh;
-}
-
-.subDev {
-    font-size: 16pt;
-    padding-top: 0vh;
-    padding-bottom: 1vh;
-}
-
-.subGame {
-    font-size: 18pt;
-    }
-
-.de {
-    margin: 0 auto;
-    width: 90vw;
-    font-size: .9em;
-    padding-bottom: 5vh;
-}
-
-.gameVid {
-    width: 90vw;
-    height: 28vh;
-}
-
-.outVid {
-    margin-top: 42vh;
-}
-
-.devImg {
-    margin-right: 0vw;
-    width: 0vw;
-}
-
-.artItem {
-    margin-top: 2vh;
-    width: 96vw;
-}
-
-.gallery {
-    float: none;
-    margin: 0 auto;
-    padding-right: 0vh;
-    width:90vw;
-    margin-top: 2vh;
-}
-    }
-    /*=======================================================================================================================================================================*/
-
-    @media (max-width:319.98px) { /* smartphones, iPhone, portrait 480x320 phones  480 height*/
-
-    }
