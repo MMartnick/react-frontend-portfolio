@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import ReactGA from 'react-ga';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 import Main from './components/js/Main.js';
