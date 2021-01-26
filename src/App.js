@@ -1,4 +1,4 @@
-﻿import React from 'react';
+﻿import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
@@ -10,26 +10,19 @@ import Art from './components/js/Art.js';
 
 import './App.css';
 
-ReactGA.initialize("G-G8W5Z7JFN1");
-
-const history = createBrowserHistory();
-history.listen(location => {
-	ReactGA.set({ page: location.pathname });
-	ReactGA.pageview(location.pathname);
-});
 
 function App() {
 
-	ReactGA.pageview(window.location.pathname);
+	useEffect(() => {
+		ReactGA.initialize('G-G8W5Z7JFN1')
+		ReactGA.pageview('/')
+	}, [])
 
 	return (
-
 		<BrowserRouter>
 
 			<div >
-
 				<header className="App-header">
-
 					<nav>
 						<Link to="/" class="navlink">Main</Link>
 						<Link to="/Dev" class="navlink">Web & Software Development</Link>
@@ -70,6 +63,8 @@ function App() {
 
 		</BrowserRouter>
 	);
+
+
 }
 
 export default App;
