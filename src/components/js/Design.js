@@ -19,7 +19,7 @@ function Design(props) {
 	ReactGA.initialize(trackingId);
 	ReactGA.set({
 		category: "Browser History",
-		action: "User came to des page",
+		action: "User came to design page",
 	})
 
 	history.listen(location => {

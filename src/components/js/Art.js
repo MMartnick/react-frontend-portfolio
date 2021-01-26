@@ -1,8 +1,5 @@
 
 import React from 'react';
-import ReactGA from 'react-ga';
-
-import { createBrowserHistory } from 'history';
 
 import '../css/Main.css';
 import ArtImages from './Art/ArtImages';
@@ -13,7 +10,19 @@ import Exhibitions from './Art/Exhibitions';
 
 function Art(props) {
 
-	const trackingId = "UA-175309816-1";
+	return (
+		<div>
+			<section id="pagetitle">
+				<p id="topic">Fine Art</p>
+			</section>
+
+			<ArtImages></ArtImages>
+			<Painting></Painting>
+			<Exhibitions></Exhibitions>
+		</div>
+	)
+
+	const trackingId = "G-G8W5Z7JFN1";
 	const history = createBrowserHistory();
 
 	ReactGA.initialize(trackingId);
