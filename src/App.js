@@ -15,8 +15,17 @@ function App() {
 
 	useEffect(() => {
 		ReactGA.initialize('G-G8W5Z7JFN1')
-		ReactGA.pageview('/')
+		ReactGA.pageview(window.location.pathname + window.location.search)
 	}, [])
+
+	const ClickHandler = () => {
+		ReactGA.event({
+			category: 'Link',
+			action: 'Nav to Github'
+		})
+		//alert('Send to Google')
+	}
+
 
 	return (
 		<BrowserRouter>
@@ -29,7 +38,7 @@ function App() {
 						<Link to="/Design" class="navlink">Graphic Design</Link>
 						<Link to="/Art" class="navlink">Fine Art</Link>
 
-						<a href="https://github.com/mmartnick/" target="_blank">
+						<a href="https://github.com/mmartnick/" target="_blank" onClick={ClickHandler}>
 							<i class="fab fa-github faHead"></i>
 						</a>
 
@@ -68,3 +77,6 @@ function App() {
 }
 
 export default App;
+
+
+//last working commit a455693c87146c53fd884f7f1493e7fa1ce0b687
