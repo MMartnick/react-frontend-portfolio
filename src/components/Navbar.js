@@ -5,10 +5,10 @@ import { faBehance, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg
 
 const Navigation = () => {
   return (
-    <Navbar expand="lg" fixed="top" className="navbar-custom">
+    <Navbar expand="lg" fixed="top" className="navbar-custom bg-dark">
       <Container className="d-flex justify-content-between">
         {/* Left Section: Brand */}
-        <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
+        <Navbar.Brand href="/">MATT MARTNICK</Navbar.Brand>
 
         {/* Right Section: Links */}
         <Navbar.Toggle aria-controls="navbarResponsive" />
@@ -20,13 +20,13 @@ const Navigation = () => {
 
             {/* Social Media Links */}
             <a href="https://www.behance.net/mattMartnick" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faBehance} style={{ marginTop: '0.5vh', marginLeft: '1.5vw', fontSize: '2em', color: '#fff', textDecoration: 'none' }} />
+              <FontAwesomeIcon icon={faBehance} style={{ marginTop: '0.5vh', marginLeft: '1.5vw', fontSize: '2em', color: '#ebe6e2', textDecoration: 'none' }} />
             </a>
             <a href="https://www.linkedin.com/in/matthew-martnick/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} style={{ marginTop: '0.5vh', marginLeft: '1.5vw', fontSize: '2em', color: '#fff', textDecoration: 'none' }} />
+              <FontAwesomeIcon icon={faLinkedin} style={{ marginTop: '0.5vh', marginLeft: '1.5vw', fontSize: '2em', color: '#ebe6e2', textDecoration: 'none' }} />
             </a>
             <a href="https://www.instagram.com/doom_monsta/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram} style={{ marginTop: '0.5vh', marginLeft: '1.5vw', fontSize: '2em', color: '#fff', textDecoration: 'none' }} />
+              <FontAwesomeIcon icon={faInstagram} style={{ marginTop: '0.5vh', marginLeft: '1.5vw', fontSize: '2em', color: '#ebe6e2', textDecoration: 'none' }} />
             </a>
           </Nav>
         </Navbar.Collapse>

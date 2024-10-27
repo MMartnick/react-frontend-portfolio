@@ -3,28 +3,6 @@ import PortfolioSection from './PortfolioSection';
 
 
 const Portfolio = () => {
-  const artProjects = [
-    { title: "Sunset Painting", description: "Acrylic painting of a sunset.", media: "/images/art/portrait2.png", type: "image" },
-    { title: "Portrait Sketch", description: "Pencil sketch of a character.", media: "/images/art/astro.png", type: "image" },
-    { title: "Sunset Painting", description: "Acrylic painting of a sunset.", media: "/images/art/days of bushido.jpg", type: "image" },
-    { title: "Portrait Sketch", description: "Pencil sketch of a character.", media: "/images/art/apple.png", type: "image" },
-    { title: "Sunset Painting", description: "Acrylic painting of a sunset.", media: "/images/art/minerva.png", type: "image" },
-    { title: "Portrait Sketch", description: "Pencil sketch of a character.", media: "/images/art/blue.png", type: "image" },
-    { title: "Sunset Painting", description: "Acrylic painting of a sunset.", media: "/images/art/minerva.png", type: "image" },
-    { title: "Portrait Sketch", description: "Pencil sketch of a character.", media: "/images/art/blue.png", type: "image" },
-  ];
-
-  const designProjects = [
-    { title: "Brand Identity", description: "Logo design for a car company.", media: "/images/design/car.png", type: "image" },
-    { title: "UI Mockup", description: "High-fidelity mockup for a mobile app.", media: "/images/design//whitetxt.jpg", type: "image" },
-    { title: "Brand Identity", description: "Logo design for a car company.", media: "/images/design/car.png", type: "image" },
-    { title: "UI Mockup", description: "High-fidelity mockup for a mobile app.", media: "/images/design//whitetxt.jpg", type: "image" },
-    { title: "Brand Identity", description: "Logo design for a car company.", media: "/images/design/car.png", type: "image" },
-    { title: "UI Mockup", description: "High-fidelity mockup for a mobile app.", media: "/images/design//whitetxt.jpg", type: "image" },
-    { title: "Brand Identity", description: "Logo design for a car company.", media: "/images/design/car.png", type: "image" },
-    { title: "UI Mockup", description: "High-fidelity mockup for a mobile app.", media: "/images/design//whitetxt.jpg", type: "image" },
-  ];
-
   const interactiveProjects = [
     {
       title: "Artificial Nocturne",
@@ -41,13 +19,39 @@ const Portfolio = () => {
       type: "video",
     },
   ];
+
+  const designProjects = [
+    { title: "Brand Identity", description: "Logo design for a car company.", media: "/images/design/car.jpg", type: "image" },
+    { title: "UI Mockup", description: "High-fidelity mockup for a mobile app.", media: "/images/design/sprint.png", type: "image" },
+    { title: "Brand Identity", description: "Logo design for a car company.", media: "/images/design/Mythril.jpg", type: "image" },
+    { title: "UI Mockup", description: "High-fidelity mockup for a mobile app.", media: "/images/design/Compiled.jpg", type: "image" },
+    { title: "Brand Identity", description: "Logo design for a car company.", media: "/images/design/posters.jpg", type: "image" },
+    { title: "UI Mockup", description: "High-fidelity mockup for a mobile app.", media: "/images/design/Mars.jpg", type: "image" },
+    { title: "Brand Identity", description: "Logo design for a car company.", media: "/images/design/logos.jpg", type: "image" },
+    { title: "UI Mockup", description: "High-fidelity mockup for a mobile app.", media: "/images/design//type.jpg", type: "image" },
+  ];
+
+  const artProjects = [
+    { title: "Sunset Painting", description: "Acrylic painting of a sunset.", media: "/images/art/portrait2.png", type: "image" },
+    { title: "Portrait Sketch", description: "Pencil sketch of a character.", media: "/images/art/astro.png", type: "image" },
+    { title: "Sunset Painting", description: "Acrylic painting of a sunset.", media: "/images/art/leah.png", type: "image" },
+    { title: "Portrait Sketch", description: "Pencil sketch of a character.", media: "/images/art/apple.png", type: "image" },
+    { title: "Sunset Painting", description: "Acrylic painting of a sunset.", media: "/images/art/siren.jpg", type: "image" },
+    { title: "Portrait Sketch", description: "Pencil sketch of a character.", media: "/images/art/blue.png", type: "image" },
+    { title: "Portrait Sketch", description: "Pencil sketch of a character.", media: "/images/art/untitled.jpg", type: "image" },
+    { title: "Sunset Painting", description: "Acrylic painting of a sunset.", media: "/images/art/dragon.png", type: "image" },
+  ];
+
+
+
+
   
 
   return (
     <div className="portfolio py-5">
-      <PortfolioSection title="Art" projects={artProjects} />
-      <PortfolioSection title="Design" projects={designProjects} />
       <PortfolioSection title="Interactive" projects={interactiveProjects} />
+      <PortfolioSection title="Design" projects={designProjects} />
+      <PortfolioSection title="Art" projects={artProjects} />
     </div>
   );
 };

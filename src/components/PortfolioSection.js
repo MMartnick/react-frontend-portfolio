@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, Container, Row, Col } from 'react-bootstrap';
+import { Modal, Container, Row, Col, Button } from 'react-bootstrap';
 import Project from './Project';
 
 const PortfolioSection = ({ title, projects }) => {
@@ -8,10 +8,8 @@ const PortfolioSection = ({ title, projects }) => {
   const handleShow = (project) => setSelectedProject(project);
   const handleClose = () => setSelectedProject(null);
 
-  // Generate the section ID based on the title (e.g., "art", "design", "interactive")
+  // Generate the section ID based on the title
   const sectionId = title.toLowerCase();
-
-  // Check if this section is Art or Design to apply the grid layout conditionally
   const isGallerySection = title === 'Art' || title === 'Design';
 
   return (
@@ -22,9 +20,9 @@ const PortfolioSection = ({ title, projects }) => {
           {projects.map((project, index) => (
             <Col
               key={index}
-              md={isGallerySection ? 3 : 12} // 4 columns for Art/Design, full-width for Interactive
-              sm={isGallerySection ? 6 : 12} // 2 columns for Art/Design on small screens
-              xs={12} // Full width on extra-small screens
+              md={isGallerySection ? 3 : 12}
+              sm={isGallerySection ? 6 : 12}
+              xs={12}
               className={project.type === 'image' ? 'mb-0.5' : ''}
             >
               {project.type === 'image' ? (
@@ -50,10 +48,13 @@ const PortfolioSection = ({ title, projects }) => {
         {/* Modal for Enlarged View of Art/Design Projects */}
         <Modal show={!!selectedProject} onHide={handleClose} centered size="lg">
           <Modal.Body>
+            <Button className="close-button" variant="link" onClick={handleClose}>
+              &times;
+            </Button>
             <Container>
               <Row>
                 <Col md={8}>
-                  <div className="modal-image-square">
+                  <div className="modal-image-square-full-height">
                     <img
                       src={selectedProject?.media}
                       alt={selectedProject?.title}
