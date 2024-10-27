@@ -1,67 +1,272 @@
+/* General Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: #4e4b42; /* New background color */
+  color: #ebe6e2; /* New font color */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  color: #ebe6e2; /* Ensure heading text matches new font color */
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
+.content-top-padding {
+  padding-top: 50px; /* Adjust this value for more or less spacing */
 }
 
-body {
-    line-height: 1;
+/* Jumbotron Styles */
+.jumbotron-hero {
+  background: url('greentxt.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #ebe6e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
 }
 
-ol, ul {
-    list-style: none;
+.navbar-custom {
+  background-color: #4e4b42; /* Match background color */
+  color: #ebe6e2;
 }
 
-blockquote, q {
-    quotes: none;
+.navbar-custom .nav-link {
+  color: #ebe6e2;
+  transition: color 0.3s;
 }
 
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-        content: '';
-        content: none;
-    }
+.navbar-custom .nav-link:hover {
+  color: #a5f3eb; /* Slight color change on hover for interactivity */
+}
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+.navbar-custom .navbar-brand {
+  color: #ebe6e2;
+  margin-right: auto; /* Ensures brand stays left-aligned */
+}
+
+.custom-jumbotron {
+  background-color: #4e4b42;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ebe6e2;
+  text-align: center;
+  margin-bottom: 2rem; /* Adds space below the Jumbotron */
+}
+
+.portfolio {
+  padding-top: 2rem;
+}
+
+/* Portfolio Section Styles */
+.portfolio-section {
+  background-color: #4e4b42;
+  padding: 3rem 0;
+
+}
+
+.portfolio-section h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ebe6e2;
+}
+
+/* Project Card Styles */
+.project {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #ebe6e2;
+}
+
+.project p {
+  color: #dcd9d4; /* Slightly lighter than main font for readability */
+}
+
+.project-video {
+  display: flex;
+  align-items: center;
+}
+
+.project-video h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #ebe6e2;
+}
+
+.project-video p {
+  color: #dcd9d4;
+}
+
+.embed-responsive {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+/* Card Overlay for Additional Project Hover Effects */
+.card-overlay {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-overlay:hover {
+  transform: scale(1.05);
+}
+
+.card-overlay img {
+  transition: opacity 0.3s;
+}
+
+.card-overlay:hover img {
+  opacity: 0.8;
+}
+
+.card-overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ebe6e2;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  font-size: 1.2em;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card-overlay:hover .card-overlay-text {
+  opacity: 1;
+}
+
+/* Embedded Video Styling */
+.embed-responsive {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Additional Utilities */
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #ebe6e2;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+/* Gallery grid layout for Art and Design sections */
+.gallery-grid .gallery-image {
+  cursor: pointer;
+  border-radius: 2px;
+  object-fit: cover; /* Ensures images are cropped to fit square */
+  width: 100%;
+  height: 100%; /* Forces a square aspect ratio */
+  max-width: 400px; /* Controls the maximum width */
+  max-height: 400px; /* Controls the maximum height */
+  aspect-ratio: 1 / 1; /* CSS property for responsive square ratio */
+  transition: transform 0.3s;
+}
+
+.gallery-grid .gallery-image:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+/* Styling for modal content */
+.modal-content {
+  background-color: #262520; /* Darker background for modal */
+  color: #ebe6e2; /* Matches main font color */
+  padding: 0.5rem;
+  border-radius: 8px;
+  height: 75vh; /* Controls the modal height */
+  overflow-y: auto; /* Adds scroll for overflowing content */
+}
+
+.modal-dialog {
+  max-width: 100%; /* Increases the modal width */
+}
+
+.modal-body h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #ebe6e2;
+}
+
+.modal-body p {
+  color: #dcd9d4; /* Slightly lighter for readability */
+}
+
+/* Full-height, square container for the modal image */
+.modal-image-square-full-height {
+  width: 75vh; /* Makes the container square */
+  height: 75vh; /* Matches the modal height */
+  max-width: 100%; /* Ensure it fits within the modal */
+  max-height: 100%; /* Ensure it fits within the modal */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative; /* Necessary for contained image centering */
+}
+
+/* Image styling to fit within the square container */
+.modal-image-fit {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the entire image is visible within the container */
+  border-radius: 2px; /* Optional: rounds the corners */
+  display: block;
+  margin: auto;
+}
+
+
+/* Styling for slightly larger embedded videos */
+.video-container {
+  height: 100%;
+}
+
+.project-video .embed-responsive-item {
+  border-radius: 2px;
+  max-height: 720px;
+  max-width: 1280px;
+}
+
+iframe {
+  max-height: 720px;
+  max-width: 1280px;
+  padding-left: 5vw;
+}
+
+@media (max-width: 767px) {
+  .modal-body h3, .modal-body p {
+    text-align: center; /* Center-align text on small screens */
+  }
 }
